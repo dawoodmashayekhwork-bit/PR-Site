@@ -14,7 +14,7 @@ tags:
 #  خوش آمدید! 👋
 
 
-## درباره من 👤
+# درباره من 👤
 
 من یک معمارم  
 
@@ -25,14 +25,15 @@ views:
     filters:
       and:
         - or:
-            - file.name == "about - Copy"
-            - file.name == "about"
-            - file.name == "about - Copy (2)"
-    sort: []
+            - file.name == "رزومه"
+            - file.name == "درباره من"
+            - file.name == "پورتفولیو"
+    sort:
+      - property: order
+        direction: ASC
+    direction: asc
     image: note.image
     cardSize: 200
-  - type: cards
-    name: View
-    cardSize: 170
 
 ```
+
