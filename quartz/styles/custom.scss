@@ -178,31 +178,40 @@ html[saved-theme="dark"] .bases-card {
 }
 // ---------------- رزومه  ----------------
 .skills{
-    width:100%;
-    max-width:900px;
-    margin:30px auto;
+    margin-top:2rem;
+    max-width:650px;
 }
 
 .skill{
-    display:grid;
-    grid-template-columns: 1fr 410px;
+    display:flex;
+    justify-content:space-between;
     align-items:center;
-    gap:38px;
-    margin:18px 0;
+    padding:.65rem 0;
+    border-bottom:1px solid rgba(0,0,0,.06);
 }
 
-.skill span{
-    font-size:18px;
-    color:#000;
+.skill:last-child{
+    border-bottom:none;
 }
 
-.bar{
-    height:8px;
-    background:#d9d9d9;
-    overflow:hidden;
+.skill span:first-child{
+    font-size:1rem;
+    font-weight:500;
 }
 
-.bar div{
-    height:100%;
-    background:#000;
+.dots{
+    display:flex;
+    gap:8px;
+}
+
+.dots span{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#d7d7d7;
+    transition:.3s;
+}
+
+.dots span.on{
+    background:#111;
 }
