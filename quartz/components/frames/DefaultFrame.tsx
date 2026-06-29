@@ -29,21 +29,20 @@ export const DefaultFrame: PageFrame = {
           ))}
         </div>
         <div class="center">
-          <div class="page-top">
-            <div class="page-header">
-              <Header {...componentData}>
-                {header.map((HeaderComponent) => (
-                  <HeaderComponent {...componentData} />
-                ))}
-              </Header>
-              <div class="popover-hint">
-                {beforeBody.map((BodyComponent) => (
-                  <BodyComponent {...componentData} />
-                ))}
-              </div>
+          <div class="page-header">
+            <Header {...componentData}>
+              {header.map((HeaderComponent) => (
+                <HeaderComponent {...componentData} />
+              ))}
+            </Header>
+            <div class="popover-hint">
+              {beforeBody.map((BodyComponent) => (
+                <BodyComponent {...componentData} />
+              ))}
             </div>
-            <Content {...componentData} />
           </div>
+          <Content {...componentData} />
+          <hr />
           <div class="page-footer">
             {afterBody.map((BodyComponent) => (
               <BodyComponent {...componentData} />
