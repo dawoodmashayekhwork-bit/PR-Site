@@ -1,7 +1,7 @@
 ---
 title: درباره من
 draft: false
-image: "[[000.0.png]]"
+image: "[[150.png]]"
 tags:
   - درباره
   - معرفی
