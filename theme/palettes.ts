@@ -379,7 +379,7 @@ export const colorPalettes = {
       lightgray: "#182233",
       gray: "#33415C",
       darkgray: "#072246",
-      dark: "#082955",
+      dark: "#4692f7",
       secondary: "#38BDF8",
       tertiary: "#4ee69a",
       highlight: "rgba(56, 189, 248, 0.1)",
