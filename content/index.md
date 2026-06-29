@@ -25,11 +25,14 @@ views:
     filters:
       and:
         - or:
-            - file.name == "about"
             - file.name == "about - Copy"
+            - file.name == "about"
             - file.name == "about - Copy (2)"
     sort: []
     image: note.image
-    cardSize: 150
+    cardSize: 200
+  - type: cards
+    name: View
+    cardSize: 170
 
 ```
