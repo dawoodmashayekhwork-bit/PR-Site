@@ -13,7 +13,7 @@ tags:
 
 #  خوش آمدید! 👋
 
-[گواهینامه‌ها](/portfolio/)
+[[Certifications.html]]
 
 # درباره من 👤
 
