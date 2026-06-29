@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: https://dawoodmashayekhwork-bit.github.io/PR-Site/
+  baseUrl: dawoodmashayekh.ir
   ignorePatterns:
     - private
     - templates
