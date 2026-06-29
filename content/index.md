@@ -3,11 +3,20 @@ title: معرفی
 draft: false
 tags:
   - معرفی
-image:
 ---
 
 <center><b>سلام</b></center>
 
+
+
+
+
+#  خوش آمدید! 👋
+
+
+## درباره من 👤
+
+من یک معمارم  
 
 ```base
 views:
@@ -22,14 +31,6 @@ views:
             - file.name == "about"
     sort: []
     image: note.image
-    cardSize: 300
+    cardSize: 150
 
 ```
-
-
-#  خوش آمدید! 👋
-
-
-## درباره من 👤
-
-من یک معمارم  
