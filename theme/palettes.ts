@@ -377,7 +377,7 @@ export const colorPalettes = {
     darkMode: {
       light: "#0A0F1A",
       lightgray: "#182233",
-      gray: "#33415C",
+      gray: "#6adcf0",
       darkgray: "#072246",
       dark: "#4692f7",
       secondary: "#38BDF8",
