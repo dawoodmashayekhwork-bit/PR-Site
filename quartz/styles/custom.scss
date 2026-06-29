@@ -116,13 +116,21 @@ img {
 
 // رنگ پشت مطالب
 
-article {
+/* Light Mode */
+html[saved-theme="light"] article {
   background: white;
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
+/* Dark Mode */
+html[saved-theme="dark"] article {
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+}
 //  جدول ها و عکس ها وسط چین شن
 
 img {
