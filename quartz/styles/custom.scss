@@ -222,3 +222,17 @@ html[saved-theme="dark"] .bases-card {
 .w80{width:80%;}
 .w90{width:90%;}
 .w100{width:100%;}
+
+.skill-category{
+    width:min(620px,95%);
+    margin:45px auto 18px;
+    padding-bottom:8px;
+
+    font-size:.78rem;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    color:#666;
+    border-bottom:1px solid #e6e6e6;
+}
