@@ -131,5 +131,6 @@ views:
     order:
       - file.name
     image: note.image
-    cardSize: 220
+    cardSize: 100
+    
     imageAspectRatio: 1
