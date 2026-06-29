@@ -1,141 +1,322 @@
 @use "./variables.scss" as *;
+@use "./_card-view.scss";
+@use "./_ui.scss";
+@use "./my-callouts.scss";
 
-html {
-  font-family: Vazirmatn, sans-serif !important;
+// ================ 01. THEME VARIABLES ================
+
+:root {
+    --bodyFont: "DanaVF" !important;
+    --headerFont: "DanaVF" !important;
+    --codeFont: "DanaVF" !important;
+    --background: #efdfcd;
+    --on-background: #f9e8d6;
+    --secondary-shadow: #ee5a2512;
+    --grain-opacity: .3;
 }
 
-.breadcrumb-element p {
-  margin: 0 0.5rem 0 0;
-  padding: 0;
-  line-height: normal;
+[saved-theme="dark"] {
+    --background: #161618;
+    --on-background: #1f1f22;
+    --secondary-shadow: #ee5a2512;
+    --grain-opacity: 0.04;
 }
 
-button#explorer .fold {
-  opacity: 0.8;
-  margin-left: 0 !important;
-  margin-right: 0.5rem !important;
-  transition: transform 0.3s;
+// ================ 02. FONTS ================
+
+@font-face { 
+    font-family: 'DanaVF';
+    src: url('/static/fonts/DanaVF.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
 }
 
-.content-meta[show-comma="true"] > span:not(:last-child) {
-  margin-left: 8px !important;
-  margin-right: 0px !important;
+// ================ 03. TYPOGRAPHY ================
+
+body {
+    font-size: 1.1em;
 }
 
-.tags {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+p, li {
+    line-height: 1.9rem;
+    font-weight: 400;
+} 
+
+sup {
+    vertical-align: middle; //اگه توی متن از پانوشت استفاده شده باشه باعث میشه فاصله بین خطوط به هم نریزه
 }
 
-.folder-icon {
-  margin-right: 0px !important;
-  margin-left: 5px !important;
+h1{
+    font-size: 1.7rem;
+    font-weight: 800;
 }
 
-#explorer-content ul {
-  padding-right: 0.7rem !important;
-  padding-left: 0px !important;
+h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: -0.2rem;
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 0.2em;
 }
 
-#toc-content .depth-1 {
-  padding: 0px !important;
-  padding-right: 1rem !important;
+h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    // margin-bottom: -0.2rem;
 }
 
-#toc-content .depth-2 {
-  padding: 0px !important;
-  padding-right: 2rem !important;
+h4,
+h5,
+h6 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: -0.2rem;
 }
 
-#toc-content .depth-3 {
-  padding: 0px !important;
-  padding-right: 3rem !important;
+.footnotes > ol > li {
+    line-height: 4rem;
 }
 
-li:has(> .folder-outer:not(.open)) > .folder-container > svg {
-  transform: rotate(90deg) !important;
+button {
+    font-family: var(--bodyFont);
 }
 
-div.search.mobile-only {
-  padding-right: 10px !important;
+
+// ================ 04. IMAGES ================
+
+img {
+    display: block;
+    margin: 0 auto !important; // وسطچین کردن تصاویر
+}
+
+// ================ 05. BLOCKQUOTE ================
+
+blockquote.transclude > :is(h1, h2, h3, h4, h5, h6):nth-child(1) {
+    display: none;
+}
+
+blockquote { // انتقال بوردر رنگی به سمت راست تا مناسب متن فارسی باشه
+    border-left: none;
+    border-right: 3px solid var(--secondary);
+    padding-right: 1rem;
+}
+
+// ================ 06. LINKS ================
+
+a.internal {
+    background-color: transparent;
+}
+
+a.external .external-icon {
+    transform: scaleX(-1);
+}
+
+// ================ 07. CODE BLOCKS ================
+
+pre {
+    background: #afafaf1a;
+}
+
+pre>code {
+    overflow-x: auto;
 }
 
 code {
-  direction: ltr !important;
+    direction: ltr !important;
 }
 
-h2#footnote-label {
-  visibility: hidden;
+figure[data-rehype-pretty-code-figure] {
+    direction: ltr;
 }
 
-h2#footnote-label::after {
-  content: "پانوشت‌ها";
-  visibility: visible;
+// ================ 08. MERMAID ================
+
+.mermaid {
+    direction: rtl !important;
+}
+
+pre:has(>code.mermaid) {
+    // background-color: transparent;
+    .clipboard-button {
+        display: none;
+    }
+    svg {
+        margin: auto;
+    }
+}
+
+.nodeLabel {
+    font-family: var(--bodyFont);
+}
+
+/* همه شاخه‌ها */
+.mindmap-node[class*="section-"]:not(.section-root) path,
+.mindmap-node[class*="section-"]:not(.section-root) rect,
+.mindmap-node[class*="section-"]:not(.section-root) circle {
+    fill: var(--lightgray) !important;
+    stroke: var(--gray) !important;
+}
+
+.mindmap-node[class*="section-"]:not(.section-root) text {
+    fill: var(--darkgray) !important;
+}
+
+/* خطوط اتصال */
+.mindmap-edges .edge {
+    stroke: var(--gray) !important;
+}
+
+/* مرکز */
+.section-root circle,
+.section-root path {
+    fill: var(--secondary) !important;
+}
+
+.section-root text {
+    fill: var(--light) !important;
+}
+
+code.mermaid svg path.edge {
+    stroke-width: 4px !important;
+}
+
+
+// ================ 08. BUTTONS ================
+
+// --------- telegram --------------
+/* From Uiverse.io by adamgiebl */ 
+button.telegram-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  background: #37a6e3;
+  color: white;
+  padding: .3em 1em .3em .8em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+  direction: ltr;
+  justify-self: center;
+}
+
+button.telegram-btn span {
   display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
 }
 
-blockquote {
-  border-right: 3px solid var(--secondary);
-  border-left: none;
-  margin: 1rem 0;
-  padding-right: 1rem;
-  padding-left: none;
-  transition: border-color 0.2s;
+button.telegram-btn svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
 }
 
-// Explorer RTL overrides (mobile)
-@media all and ($mobile) {
-  html[dir="rtl"] .page > #quartz-body.lock-scroll > :not(.sidebar.left:has(.explorer)) {
-    transform: translateX(-100dvw);
+button.telegram-btn:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button.telegram-btn:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button.telegram-btn:hover span {
+  transform: translateX(5em);
+}
+
+button.telegram-btn:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
   }
 
-  html[dir="rtl"] .explorer {
-    &.collapsed > .explorer-content {
-      transform: translateX(100vw);
-      visibility: hidden;
-    }
-
-    &:not(.collapsed) > .explorer-content {
-      transform: translateX(0);
-      visibility: visible;
-    }
-
-    .explorer-content {
-      left: auto;
-      right: 0;
-      transform: translateX(100vw);
-    }
+  to {
+    transform: translateY(-0.1em);
   }
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+// -------- all note btn ----------
+.all-notes-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+  padding: 0.85rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--dark);
+  border: 1px solid var(--lightgray);
+  transition: all 0.5s ease;
+background:
+linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--light) 96%, white),
+    var(--light)
+);
+
 }
 
-// رنگ پشت مطالب
-
-article {
-  background: white;
-  padding: 2rem;
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+.all-notes-btn svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.4s ease;
 }
 
-//  جدول ها و عکس ها وسط چین شن
-.media-center img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.all-notes-btn:hover {
+  border-color: color-mix(in srgb, var(--secondary) 50%, var(--lightgray));
+  color: var(--secondary);
+
+  box-shadow:
+    0 0 10px color-mix(in srgb, var(--secondary) 10%, transparent);
+
 }
 
-.media-center table {
-  margin-left: auto;
-  margin-right: auto;
+.all-notes-btn:hover svg {
+  transform: translateX(-4px);
 }
 
-.media-center th,
-.media-center td {
-  text-align: center;
+
+// ================ 09. CSSCLASSES ================
+
+
+// -------------- hide h1 title ------------
+body:is(
+    [data-slug="index"],
+    [data-slug="obsidian"]
+) :is(.article-title, .content-meta-plus) {
+    display: none;
 }
+
+
+// ---------------- bases ----------------
+
+// hide meta
+.bases-hide-meta .bases-view-meta  {
+    display: none;
+}
+
+// 2col
+.bases-2col div.bases-cards {
+    justify-items: center;
+    grid-template-columns: 1fr 1fr !important;
+}
+
+@media (max-width: 480px) {
+    .bases-2col div.bases-cards {
+        grid-template-columns: 1fr !important;
+    }
+}
+
