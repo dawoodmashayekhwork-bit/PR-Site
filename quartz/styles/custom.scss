@@ -178,15 +178,16 @@ html[saved-theme="dark"] .bases-card {
 }
 // ---------------- رزومه  ----------------
 .skill-list{
-    width:min(620px,90%);
+    width:min(620px,95%);
     margin:3rem auto;
 }
 
 .skill-item{
     display:grid;
-    grid-template-columns:180px 1fr;
+    grid-template-columns:180px 240px;
+    justify-content:center;
     align-items:center;
-    column-gap:40px;
+    gap:45px;
     padding:14px 0;
 }
 
@@ -198,19 +199,26 @@ html[saved-theme="dark"] .bases-card {
 }
 
 .skill-level{
-    width:220px;
-    justify-self:start;
-    height:3px;
+    width:240px;
+    height:6px;
     background:#dddddd;
-    border-radius:20px;
-    position:relative;
+    border-radius:999px;
+    overflow:hidden;
 }
 
-.skill-level::after{
-    content:"";
-    position:absolute;
-    inset:0 auto 0 0;
+.fill{
     height:100%;
-    background:#222;
-    border-radius:20px;
+    background:#111;
+    border-radius:999px;
 }
+
+.w10{width:10%;}
+.w20{width:20%;}
+.w30{width:30%;}
+.w40{width:40%;}
+.w50{width:50%;}
+.w60{width:60%;}
+.w70{width:70%;}
+.w80{width:80%;}
+.w90{width:90%;}
+.w100{width:100%;}
