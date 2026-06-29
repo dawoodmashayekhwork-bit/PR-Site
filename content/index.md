@@ -26,7 +26,7 @@ views:
     filters:
       and:
         - or:
-            - file.name == "رزومه"
+            - file.name == "وبسایت"
             - file.name == "درباره من"
             - file.name == "پورتفولیو"
     sort:
