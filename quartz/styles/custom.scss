@@ -149,9 +149,6 @@ img {
     }
 }
 
-```css
-.base-view .results-count,
-.base-view .table-footer,
-.base-view .view-footer {
-    display: none !important;
+.base-view p:last-child {
+    display: none;
 }
