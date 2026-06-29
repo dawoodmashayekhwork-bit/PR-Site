@@ -26,9 +26,6 @@ views:
       and:
         - or:
             - file.name == "about"
-            - file.name == "about"
-            - file.name == "about"
-            - file.name == "about"
     sort: []
     image: note.image
     cardSize: 150
