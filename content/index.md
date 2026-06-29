@@ -3,6 +3,7 @@ title: معرفی
 draft: false
 tags:
   - معرفی
+image:
 ---
 
 <center><b>سلام</b></center>
