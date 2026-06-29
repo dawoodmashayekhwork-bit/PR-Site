@@ -15,7 +15,9 @@ export default (() => {
     const titleSuffix = cfg.pageTitleSuffix ?? ""
     const title =
       (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
-    const description =
+    if (fileData.slug === "index") {
+	 return <></> }
+      const description =
       fileData.frontmatter?.socialDescription ??
       fileData.frontmatter?.description ??
       unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description)
