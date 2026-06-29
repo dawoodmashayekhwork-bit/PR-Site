@@ -375,7 +375,7 @@ export const colorPalettes = {
       textHighlight: "rgba(0, 127, 255, 0.25)",
     },
     darkMode: {
-      light: "#0A0F1A",
+      light: "#90f8ff",
       lightgray: "#182233",
       gray: "#6adcf0",
       darkgray: "#072246",
