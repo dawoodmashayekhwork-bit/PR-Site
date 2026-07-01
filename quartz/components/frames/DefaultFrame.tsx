@@ -3,10 +3,6 @@ import HeaderConstructor from "../Header"
 
 const Header = HeaderConstructor()
 
-/**
- * The default page frame — three-column layout with left sidebar, center
- * content (header + body + afterBody), and right sidebar, followed by a footer.
- */
 export const DefaultFrame: PageFrame = {
   name: "default",
   render({
@@ -34,12 +30,21 @@ export const DefaultFrame: PageFrame = {
                 <HeaderComponent {...componentData} />
               ))}
             </Header>
+
+            {/* Breadcrumb + Title بالا */}
+            <div class="popover-hint">
+              {beforeBody.slice(0, 2).map((BodyComponent) => (
+                <BodyComponent {...componentData} />
+              ))}
+            </div>
           </div>
 
+          {/* متن مقاله */}
           <Content {...componentData} />
 
-          <div class="popover-hint">
-            {beforeBody.map((BodyComponent) => (
+          {/* Content Meta + Note Properties پایین مقاله */}
+          <div class="page-meta-bottom">
+            {beforeBody.slice(2).map((BodyComponent) => (
               <BodyComponent {...componentData} />
             ))}
           </div>
