@@ -262,7 +262,7 @@ body[data-slug="index"] .content-meta time {
 }
 
 
-// ----------------    ----------------
+// ----------------   رنگ پشت ایتم های متادیتا ----------------
 .content-meta {
   display: flex;
   gap: 8px;
@@ -279,4 +279,9 @@ body[data-slug="index"] .content-meta time {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+/* حذف ویرگول بین آیتم‌های متادیتا */
+.content-meta .comma {
+  display: none;
 }
