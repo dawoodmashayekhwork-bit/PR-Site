@@ -264,24 +264,18 @@ body[data-slug="index"] .content-meta time {
 
 // ----------------   رنگ پشت ایتم های متادیتا ----------------
 .content-meta {
-  display: flex;
-  gap: 8px;
-  margin: 1rem 0;
-  flex-wrap: wrap;
-}
-
-.content-meta > * {
-  background: #efe2cd;
-  border: 1px solid #d7c2a6;
-  border-radius: 6px;
-  padding: 6px 10px;
-  font-size: 0.9rem;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  background: #f3e4cb;
+  border: 1px solid #d6c1a0;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #5a4633;
 }
 
-/* حذف ویرگول بین آیتم‌های متادیتا */
-.content-meta .separator {
+.content-meta .comma {
   display: none;
 }
