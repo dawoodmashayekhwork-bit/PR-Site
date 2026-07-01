@@ -240,7 +240,12 @@ html[saved-theme="dark"] .bases-card {
     border-bottom:1px solid #e6e6e6;
 }
 
-/* Hide title only on homepage */
+/* تایتل بالای صفحه */
 body[data-slug="index"] .article-title {
+  display: none;
+}
+
+
+body[data-slug="index"] .content-meta span {
   display: none;
 }
