@@ -207,17 +207,23 @@ body[data-slug="index"] .content-meta time {
 }
 
 .content-meta > * {
-  background: #e7c3a5;
-  border: 1px solid #ac8361;
+  background: color-mix(in srgb, var(--light) 75%, var(--tertiary) 25%);
+  border: 1px solid var(--tertiary);
+  color: color-mix(in srgb, var(--dark) 65%, var(--tertiary) 35%);
   border-radius: 8px;
-  padding: 8px 10px;
+  padding: 8px 12px;
   font-size: 0.95rem;
   font-weight: 700;
   display: flex;
   align-items: center;
   gap: 6px;
+  transition: .2s ease;
 }
 
+.content-meta > *:hover {
+  background: var(--tertiary);
+  color: var(--light);
+}
 
 /* ================= رزومه ================= */
 
