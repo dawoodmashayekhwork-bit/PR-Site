@@ -1,11 +1,10 @@
 ---
-title: معرفی
+title: Dawood Mashayekh
 draft: false
-tags:
-  - معرفی
+
 ---
 
-#  سلام خوش آمدید! 👋
+#  سلام خوش آمدید! 
 
 
 
