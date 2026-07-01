@@ -245,12 +245,14 @@ html[saved-theme="dark"] .bases-card {
 // ---------------- بالای صفحه  ----------------
 
 /* تایتل بالای صفحه */
-body[data-slug="index"] .article-title {
+body[data-slug="index"] .article-title,
+ body[data-slug="درباره-من"] .article-title{
   display: none;
 }
 
 /* مدت زمان مطالعه بالای صفحه */
-body[data-slug="index"] .content-meta span {
+body[data-slug="index"] .content-meta span 
+body[data-slug="درباره-من"] .content-meta span {
   display: none;
 }
 
