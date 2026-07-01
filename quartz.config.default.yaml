@@ -155,7 +155,7 @@ plugins:
     enabled: true
     layout:
       position: afterBody
-      priority: 5
+      priority: 20
   - source: github:quartz-community/tag-list
     enabled: false
     layout:
