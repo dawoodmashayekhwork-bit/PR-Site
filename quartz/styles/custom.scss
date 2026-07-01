@@ -263,3 +263,20 @@ body[data-slug="index"] .content-meta time {
 
 
 // ----------------    ----------------
+.content-meta {
+  display: flex;
+  gap: 8px;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.content-meta > * {
+  background: #efe2cd;
+  border: 1px solid #d7c2a6;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
