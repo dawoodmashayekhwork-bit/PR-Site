@@ -245,8 +245,7 @@ html[saved-theme="dark"] .bases-card {
 // ---------------- بالای صفحه  ----------------
 
 /* تایتل بالای صفحه */
-body[data-slug="index"] .article-title,
- body[data-slug="درباره-من"] .article-title{
+body[data-slug="index"] .article-title {
   display: none;
 }
 
