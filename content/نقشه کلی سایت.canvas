@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"eb2510c6c5ea4f84","x":0,"y":-350,"width":400,"height":400,"type":"file","file":"content/تجربه ها.md"},
+		{"id":"9f65b6e89afd61a0","x":-520,"y":-350,"width":400,"height":400,"type":"file","file":"content/پورتفولیو.md"},
+		{"id":"fe5219991bd3583c","x":-1060,"y":-350,"width":400,"height":400,"type":"file","file":"content/مهارت ها.md"},
+		{"id":"297a8a7f6ecd1c9f","x":-520,"y":340,"width":400,"height":400,"type":"file","file":"content/درباره من.md"},
+		{"id":"5d9980402f38a4cf","x":400,"y":1360,"width":400,"height":400,"type":"file","file":"content/index.md"},
+		{"id":"f407af1181718234","x":1440,"y":340,"width":400,"height":400,"type":"file","file":"content/وبسایت.md"}
+	],
+	"edges":[
+		{"id":"664e622f0c377331","fromNode":"297a8a7f6ecd1c9f","fromSide":"top","toNode":"eb2510c6c5ea4f84","toSide":"bottom"},
+		{"id":"db78e4f606976093","fromNode":"297a8a7f6ecd1c9f","fromSide":"top","toNode":"9f65b6e89afd61a0","toSide":"bottom"},
+		{"id":"2b9518dac228c8a7","fromNode":"297a8a7f6ecd1c9f","fromSide":"top","toNode":"fe5219991bd3583c","toSide":"bottom"},
+		{"id":"afa0883e8de3a18d","fromNode":"5d9980402f38a4cf","fromSide":"top","toNode":"297a8a7f6ecd1c9f","toSide":"bottom"},
+		{"id":"bd953385ce83314c","fromNode":"5d9980402f38a4cf","fromSide":"top","toNode":"f407af1181718234","toSide":"bottom"}
+	]
+}
