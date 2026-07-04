@@ -1,17 +1,17 @@
 {
 	"nodes":[
-		{"id":"eb2510c6c5ea4f84","x":0,"y":-350,"width":400,"height":400,"type":"file","file":"content/تجربه ها.md"},
-		{"id":"9f65b6e89afd61a0","x":-520,"y":-350,"width":400,"height":400,"type":"file","file":"content/پورتفولیو.md"},
-		{"id":"fe5219991bd3583c","x":-1060,"y":-350,"width":400,"height":400,"type":"file","file":"content/مهارت ها.md"},
-		{"id":"297a8a7f6ecd1c9f","x":-520,"y":340,"width":400,"height":400,"type":"file","file":"content/درباره من.md"},
-		{"id":"5d9980402f38a4cf","x":400,"y":1360,"width":400,"height":400,"type":"file","file":"content/index.md"},
-		{"id":"f407af1181718234","x":1440,"y":340,"width":400,"height":400,"type":"file","file":"content/وبسایت.md"}
+		{"id":"1ddf5a8a141bb258","x":-520,"y":340,"width":400,"height":400,"type":"link","url":"https://dawoodmashayekh.ir/درباره-من"},
+		{"id":"5498b5899923906a","x":-160,"y":-400,"width":400,"height":400,"type":"link","url":"http://dawoodmashayekh.ir/%D8%AA%D8%AC%D8%B1%D8%A8%D9%87-%D9%87%D8%A7"},
+		{"id":"aa590d7aa9ca9efe","x":-840,"y":-400,"width":400,"height":400,"type":"link","url":"http://dawoodmashayekh.ir/%D9%85%D9%87%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7"},
+		{"id":"5b37d9e4883f651f","x":1840,"y":340,"width":400,"height":400,"type":"link","url":"http://dawoodmashayekh.ir/%D9%BE%D9%88%D8%B1%D8%AA%D9%81%D9%88%D9%84%DB%8C%D9%88"},
+		{"id":"8a547975b8f5bbbb","x":600,"y":340,"width":400,"height":400,"type":"link","url":"http://dawoodmashayekh.ir/%D9%88%D8%A8%D8%B3%D8%A7%DB%8C%D8%AA"},
+		{"id":"5d9980402f38a4cf","type":"file","file":"content/index.md","x":600,"y":1400,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"664e622f0c377331","fromNode":"297a8a7f6ecd1c9f","fromSide":"top","toNode":"eb2510c6c5ea4f84","toSide":"bottom"},
-		{"id":"db78e4f606976093","fromNode":"297a8a7f6ecd1c9f","fromSide":"top","toNode":"9f65b6e89afd61a0","toSide":"bottom"},
-		{"id":"2b9518dac228c8a7","fromNode":"297a8a7f6ecd1c9f","fromSide":"top","toNode":"fe5219991bd3583c","toSide":"bottom"},
-		{"id":"afa0883e8de3a18d","fromNode":"5d9980402f38a4cf","fromSide":"top","toNode":"297a8a7f6ecd1c9f","toSide":"bottom"},
-		{"id":"bd953385ce83314c","fromNode":"5d9980402f38a4cf","fromSide":"top","toNode":"f407af1181718234","toSide":"bottom"}
+		{"id":"afa0883e8de3a18d","fromNode":"5d9980402f38a4cf","fromSide":"top","toNode":"1ddf5a8a141bb258","toSide":"bottom"},
+		{"id":"053bd4097d81f43b","fromNode":"1ddf5a8a141bb258","fromSide":"top","toNode":"5498b5899923906a","toSide":"bottom"},
+		{"id":"206dfdaa2a2965ed","fromNode":"1ddf5a8a141bb258","fromSide":"top","toNode":"aa590d7aa9ca9efe","toSide":"bottom"},
+		{"id":"d5ad809b47a07860","fromNode":"5d9980402f38a4cf","fromSide":"top","toNode":"8a547975b8f5bbbb","toSide":"bottom"},
+		{"id":"de9e3b6cb84a8569","fromNode":"5d9980402f38a4cf","fromSide":"top","toNode":"5b37d9e4883f651f","toSide":"bottom"}
 	]
 }
