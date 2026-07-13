@@ -15,9 +15,9 @@ views:
     filters:
       and:
         - or:
-            - file.name == "وبسایت"
+            - file.name == "پروژه ها"
             - file.name == "درباره من"
-            - file.name == "پورتفولیو"
+            - file.name == "یادداشت‌ها"
     sort:
       - property: order
         direction: ASC
