@@ -3,7 +3,29 @@ title: سخن بزرگان
 image: "[[Quote.png]]"
 ---
 
-<div class="quote-card">
+<div class="Q1">
+
+  <div class="quote-content">
+
+ <h2>تیبور فیشر</h2>
+
+ <div class="quote-job">
+      نویسنده
+    </div>
+
+<blockquote class="quote-text">
+      «هیچ سطحی از هوش، انسان را از حماقت‌هایش مصون نمی‌کند.»
+    </blockquote>
+
+</div>
+
+  <div class="quote-image">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tibor-Fischer.jpg/250px-Tibor-Fischer.jpg">
+  </div>
+
+</div>
+
+<div class="Q2">
 
   <div class="quote-content">
 
@@ -41,9 +63,9 @@ image: "[[Quote.png]]"
 
 
 
-
 <style>
-.quote-card{
+    
+.Q1{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
@@ -56,7 +78,23 @@ image: "[[Quote.png]]"
     border:1px solid #d6d6d6;
     border-radius:22px;
 
-    background:#f8f8f8;
+    background: #f8f8f8;
+}
+
+.Q2{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+
+    gap:40px;
+
+    padding:30px;
+
+    border:1px solid #d6d6d6;
+    border-radius:22px;
+
+    background: #f1a8a8;
 }
 
 .quote-content{
@@ -112,6 +150,10 @@ image: "[[Quote.png]]"
 
     box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
+
+
+
+
 </style>
 
 
