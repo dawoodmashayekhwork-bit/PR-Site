@@ -10,10 +10,9 @@ image: "[[Quote.png]]"
   <div class="quote-content">
     <h3>تیبور فیشر</h3>
     <span class="quote-job">نویسنده</span>
-
-    <blockquote>
+    
       «هیچ سطحی از هوش انسان را از حماقت‌هایش مصون نمی‌کند.»
-    </blockquote>
+   
   </div>
 
   <div class="quote-image">
