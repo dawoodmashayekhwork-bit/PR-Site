@@ -51,7 +51,7 @@ description: سخن بزرگان تاریخ
 </div>
 
 
-<div class="quote-card quote-purple">
+<div class="quote-card quote-yellow">
 
   <div class="quote-content">
 
@@ -104,13 +104,13 @@ description: سخن بزرگان تاریخ
 
 
 
-<div class="quote-card quote-yellow">
+<div class="quote-card quote-purple">
 
   <div class="quote-content">
 
 <h2>  Annie Dillard </h2>
 
-  <div class="quote-job">
+  <div class="quote-job">س
        American author 
     </div>
 
@@ -136,7 +136,7 @@ description: سخن بزرگان تاریخ
 <h2>  Charles Dederich </h2>
 
   <div class="quote-job">
-       بنیان سازمان Synanon 
+       بنیان گذار سازمان Synanon 
     </div>
 
    <blockquote class="quote-text">
@@ -151,6 +151,28 @@ description: سخن بزرگان تاریخ
 
 </div>
 
+
+<div class="quote-card quote-blue">
+
+  <div class="quote-content">
+
+<h2>شاملو </h2>
+
+  <div class="quote-job">
+      شاعر
+    </div>
+
+   <blockquote class="quote-text">
+      زندگی به طور بیشرمانه ای کوتاه است 
+    </blockquote>
+
+  </div>
+
+  <div class="quote-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGtdI8YI681uAdDd2ci2ZOByhcc9gM_XBn4B0GFbnjzObS84iLL3poC5bfBAckTvGGO1_B&s">
+  </div>
+
+</div>
 
 
 
