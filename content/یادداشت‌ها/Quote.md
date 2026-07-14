@@ -7,13 +7,13 @@ image: "[[Quote.png]]"
 
   <div class="quote-content">
 
-    <h2>تیبور فیشر</h2>
+<h2>تیبور فیشر</h2>
 
-    <div class="quote-job">
+ <div class="quote-job">
       نویسنده
     </div>
 
-    <blockquote class="quote-text">
+  <blockquote class="quote-text">
       «هیچ سطحی از هوش، انسان را از حماقت‌هایش مصون نمی‌کند.»
     </blockquote>
 
@@ -31,13 +31,13 @@ image: "[[Quote.png]]"
 
   <div class="quote-content">
 
-    <h2>استیو جابز</h2>
+<h2>استیو جابز</h2>
 
-    <div class="quote-job">
+  <div class="quote-job">
       کارآفرین
     </div>
 
-    <blockquote class="quote-text">
+   <blockquote class="quote-text">
       «تنها راه انجام کارهای بزرگ، عاشق کاری بودن است که انجام می‌دهید.»
     </blockquote>
 
@@ -48,6 +48,23 @@ image: "[[Quote.png]]"
   </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <style>
 
