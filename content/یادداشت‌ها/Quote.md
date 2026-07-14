@@ -3,158 +3,113 @@ title: سخن بزرگان
 image: "[[Quote.png]]"
 ---
 
-> [!NOTE] تیبور فیشر (Tibor Fischer)
-> هیچ سطحی از هوش، انسان را از حماقت‌هایش مصون نمی‌کند.
+> [!NOTE]   تیبور فیشر (Tibor Fischer)
+> هیچ میزان از هوش، انسان را از حماقت نجات نمی‌دهد
 
 <div class="quote-card">
-
   <div class="quote-content">
-
-    <h2>تیبور فیشر</h2>
-
-    <div class="quote-job">
-      نویسنده
-    </div>
-
-    <blockquote class="quote-text">
-      «هیچ سطحی از هوش، انسان را از حماقت‌هایش مصون نمی‌کند.»
-    </blockquote>
-
+    <h3>تیبور فیشر</h3>
+    <span class="quote-job">نویسنده</span>
+    
+      هیچ میزان از هوش، انسان را از حماقت نجات نمی‌دهد
+   
   </div>
 
   <div class="quote-image">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tibor-Fischer.jpg/250px-Tibor-Fischer.jpg" alt="تیبور فیشر">
   </div>
-
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <style>
+.quote-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 
-.quote-card{
+  gap: 2rem;
+  padding: 24px;
 
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
+  margin: 1.5rem 0;
 
-    gap:40px;
+  border: 1px solid var(--lightgray);
+  border-radius: 18px;
 
-    margin:2rem 0;
-
-    padding:32px;
-
-    background:var(--light);
-
-    border:1px solid var(--lightgray);
-
-    border-radius:22px;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-
+  background: var(--light);
+  box-shadow: 0 8px 25px rgba(0,0,0,.06);
 }
 
 .quote-content{
-
-    flex:1;
-
-    text-align:right;
-
+  flex:1;
 }
 
-.quote-content h2{
-
-    margin:0;
-
-    font-size:2.2rem;
-
-    font-weight:700;
-
-    color:var(--dark);
-
+.quote-content h3{
+  margin:0;
+  font-size:1.6rem;
+  font-weight:700;
+  color:var(--dark);
 }
 
 .quote-job{
-
-    margin-top:8px;
-
-    margin-bottom:28px;
-
-    font-size:1rem;
-
-    color:var(--secondary);
-
+  display:block;
+  margin-top:4px;
+  color:var(--secondary);
+  font-size:.95rem;
 }
 
-.quote-text{
+.quote-content blockquote{
+  margin:22px 0 0;
+  padding-right:18px;
 
-    margin:0;
+  border-right:4px solid var(--secondary);
 
-    padding:0;
-
-    border:none;
-
-    background:none;
-
-    text-align:right;
-
-    direction:rtl;
-
-    font-size:1.35rem;
-
-    line-height:2.2;
-
-    color:var(--darkgray);
-
-    min-height:8.8em;
-
-    display:flex;
-
-    align-items:center;
-
+  font-size:1.15rem;
+  line-height:2;
+  color:var(--darkgray);
 }
 
 .quote-image img{
+  width:180px;
+  height:180px;
+  object-fit:cover;
 
-    width:200px;
+  border-radius:18px;
 
-    height:200px;
-
-    object-fit:cover;
-
-    border-radius:20px;
-
-    border:5px solid white;
-
-    box-shadow:0 12px 30px rgba(0,0,0,.15);
-
+  border:4px solid white;
+  box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
 
 @media (max-width:700px){
 
 .quote-card{
-
     flex-direction:column-reverse;
-
     text-align:center;
-
 }
 
-.quote-content{
-
-    text-align:center;
-
+.quote-content blockquote{
+    border-right:none;
+    border-top:4px solid var(--secondary);
+    padding-right:0;
+    padding-top:18px;
 }
-
-.quote-text{
-
-    text-align:center;
-
-    justify-content:center;
-
-    min-height:auto;
-
-}
-
 }
 
 </style>
