@@ -111,7 +111,7 @@ description: سخن بزرگان تاریخ
 <h2>  Annie Dillard </h2>
 
   <div class="quote-job">س
-       American author 
+       نویسنده
     </div>
 
    <blockquote class="quote-text">
