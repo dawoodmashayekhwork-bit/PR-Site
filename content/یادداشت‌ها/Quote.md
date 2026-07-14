@@ -50,6 +50,32 @@ image: "[[Quote.png]]"
 </div>
 
 
+<div class="quote-card quote-green">
+
+  <div class="quote-content">
+
+<h2> ژرژ بنجامین کلمانسو</h2>
+
+  <div class="quote-job">
+      سیاست مدار
+    </div>
+
+   <blockquote class="quote-text">
+     انسان برای اقدام کردن باید کمی دیوانه باشد.
+     انسان معقول و منطقی با همان فکر کردن راضی میشود
+    </blockquote>
+
+  </div>
+
+  <div class="quote-image">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Georges_Clemenceau_1.jpg/250px-Georges_Clemenceau_1.jpg">
+  </div>
+
+</div>
+
+
+
+
 
 
 
