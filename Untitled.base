@@ -1,0 +1,9 @@
+views:
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.name == link("Quote")
+    order:
+      - file.name
+    image: note.image
