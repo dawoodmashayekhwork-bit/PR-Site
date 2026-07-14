@@ -115,7 +115,7 @@ description: سخن بزرگان تاریخ
     </div>
 
    <blockquote class="quote-text">
-    How we spend our days is, of course, how we spend our lives.
+   اینکه روزهایمان را چگونه می‌گذرانیم، در واقع همان شیوه‌ای است که زندگی‌مان را می‌گذرانیم.
     </blockquote>
 
   </div>
@@ -127,6 +127,29 @@ description: سخن بزرگان تاریخ
 </div>
 
 
+
+
+<div class="quote-card quote-gray">
+
+  <div class="quote-content">
+
+<h2>  Charles Dederich </h2>
+
+  <div class="quote-job">
+       بنیان سازمان Synanon 
+    </div>
+
+   <blockquote class="quote-text">
+  امروز، اولین روزِ ادامهٔ زندگی توست.
+    </blockquote>
+
+  </div>
+
+  <div class="quote-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUjSX9jcQKWc3FtRkbuizkVf3eOhv4PWi2dtd-QShkKPTSy5LxukC_uMs_t79U2ooRNfsONGMvy1_oRAuM3VhieHlQpvuy4ZPyzO6zjbpF&s=10">
+  </div>
+
+</div>
 
 
 
