@@ -90,11 +90,11 @@ image: "[[Quote.png]]"
     gap:40px;
 
     padding:30px;
-
-    border:1px solid #d6d6d6;
+   
     border-radius:22px;
 
-    background: #f1a8a8;
+  background: #eef5ff;
+  border:1px solid #cddff9;
 }
 
 .quote-content{
