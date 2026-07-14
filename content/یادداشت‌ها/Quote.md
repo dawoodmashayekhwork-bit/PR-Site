@@ -51,7 +51,7 @@ image: "[[Quote.png]]"
 
     gap:40px;
 
-    padding:100px;
+    padding:30px;
 
     border:1px solid #d6d6d6;
     border-radius:22px;
