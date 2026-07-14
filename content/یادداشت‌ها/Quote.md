@@ -110,7 +110,7 @@ description: سخن بزرگان تاریخ
 
 <h2>  Annie Dillard </h2>
 
-  <div class="quote-job">س
+  <div class="quote-job">
        نویسنده
     </div>
 
