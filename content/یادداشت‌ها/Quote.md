@@ -17,13 +17,25 @@ image: "[[Quote.png]]"
       «هیچ سطحی از هوش، انسان را از حماقت‌هایش مصون نمی‌کند.»
     </blockquote>
 
-  </div>
+</div>
 
   <div class="quote-image">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tibor-Fischer.jpg/250px-Tibor-Fischer.jpg">
   </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -54,8 +66,8 @@ image: "[[Quote.png]]"
 
 .quote-content h2{
     margin:0;
-    font-size:2.2rem;
-    font-weight:700;
+    font-size:1.2rem;
+    font-weight:500;
 }
 
 .quote-role{
@@ -77,7 +89,7 @@ image: "[[Quote.png]]"
 
     line-height:2.2;
 
-    min-height:9em;      /* حدود ۴ خط جا */
+    min-height:5em;      /* حدود ۴ خط جا */
 
     border:none;
 
