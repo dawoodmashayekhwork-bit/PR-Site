@@ -3,43 +3,21 @@ title: سخن بزرگان
 image: "[[Quote.png]]"
 ---
 
-<div class="Q1">
+<div class="quote-card quote-cream">
 
   <div class="quote-content">
 
- <h2>تیبور فیشر</h2>
+    <h2>تیبور فیشر</h2>
 
- <div class="quote-job">
+    <div class="quote-job">
       نویسنده
     </div>
 
-<blockquote class="quote-text">
+    <blockquote class="quote-text">
       «هیچ سطحی از هوش، انسان را از حماقت‌هایش مصون نمی‌کند.»
     </blockquote>
 
-</div>
-
-  <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tibor-Fischer.jpg/250px-Tibor-Fischer.jpg">
   </div>
-
-</div>
-
-<div class="Q2">
-
-  <div class="quote-content">
-
- <h2>تیبور فیشر</h2>
-
- <div class="quote-job">
-      نویسنده
-    </div>
-
-<blockquote class="quote-text">
-      «هیچ سطحی از هوش، انسان را از حماقت‌هایش مصون نمی‌کند.»
-    </blockquote>
-
-</div>
 
   <div class="quote-image">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tibor-Fischer.jpg/250px-Tibor-Fischer.jpg">
@@ -49,23 +27,32 @@ image: "[[Quote.png]]"
 
 
 
+<div class="quote-card quote-blue">
 
+  <div class="quote-content">
 
+    <h2>استیو جابز</h2>
 
+    <div class="quote-job">
+      کارآفرین
+    </div>
 
+    <blockquote class="quote-text">
+      «تنها راه انجام کارهای بزرگ، عاشق کاری بودن است که انجام می‌دهید.»
+    </blockquote>
 
+  </div>
 
+  <div class="quote-image">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Steve_Jobs_Headshot_2010-CROP.jpg/250px-Steve_Jobs_Headshot_2010-CROP.jpg">
+  </div>
 
-
-
-
-
-
-
+</div>
 
 <style>
-    
-.Q1{
+
+.quote-card{
+
     display:flex;
     flex-direction:row;
     justify-content:space-between;
@@ -73,51 +60,111 @@ image: "[[Quote.png]]"
 
     gap:40px;
 
-    padding:30px;
+    margin:34px 0;
 
-    border:1px solid #d6d6d6;
+    padding:22px 30px;
+
     border-radius:22px;
 
-    background: #f8f8f8;
+    transition:.25s ease;
+
+    box-shadow:0 8px 22px rgba(0,0,0,.06);
+
 }
 
-.Q2{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
+.quote-card:hover{
 
-    gap:40px;
+    transform:translateY(-4px);
 
-    padding:30px;
-   
-    border-radius:22px;
+    box-shadow:0 16px 40px rgba(0,0,0,.10);
 
-  background: #eef5ff;
-  border:1px solid #cddff9;
 }
+
+/* ---------- رنگ‌ها ---------- */
+
+.quote-cream{
+
+    background:#faf7f2;
+    border:1px solid #e8ddd0;
+
+}
+
+.quote-blue{
+
+    background:#eef5ff;
+    border:1px solid #cddff9;
+
+}
+
+.quote-green{
+
+    background:#eef8f0;
+    border:1px solid #d4e7d8;
+
+}
+
+.quote-purple{
+
+    background:#f5f2fb;
+    border:1px solid #ddd3f0;
+
+}
+
+.quote-yellow{
+
+    background:#fff8e8;
+    border:1px solid #f0dfb6;
+
+}
+
+.quote-gray{
+
+    background:#f6f7f8;
+    border:1px solid #dde2e6;
+
+}
+
+/* ---------- متن ---------- */
 
 .quote-content{
+
     flex:1;
+
     text-align:right;
+
 }
 
 .quote-content h2{
+
     margin:0;
-    font-size:1.2rem;
-    font-weight:500;
+
+    font-size:1.45rem;
+
+    font-weight:700;
+
+    color:#1f2d3d;
+
 }
 
-.quote-role{
-    margin-top:8px;
-    margin-bottom:28px;
+.quote-job{
 
-    color:#4769b2;
-    font-size:1.05rem;
+    margin-top:6px;
+
+    margin-bottom:18px;
+
+    color:#5d6b82;
+
+    font-size:1rem;
+
 }
 
 .quote-text{
+
     margin:0;
+
+    display:flex;
+
+    align-items:center;
 
     text-align:right;
 
@@ -125,42 +172,84 @@ image: "[[Quote.png]]"
 
     font-size:1.35rem;
 
-    line-height:2.2;
+    line-height:1.9;
 
-    min-height:5em;      /* حدود ۴ خط جا */
+    min-height:3.8em;
 
-    border:none;
+    color:#2f4055;
 
-    background:none;
+}
 
-    padding:0;
+/* ---------- عکس ---------- */
 
-    white-space:pre-wrap;
+.quote-image{
+
+    flex-shrink:0;
+
 }
 
 .quote-image img{
 
-    width:190px;
+    width:170px;
 
-    height:190px;
+    height:170px;
 
     object-fit:cover;
 
     border-radius:18px;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    box-shadow:0 12px 28px rgba(0,0,0,.15);
+
+    transition:.25s ease;
+
 }
 
+.quote-card:hover img{
 
+    transform:scale(1.03);
 
+}
+
+/* ---------- موبایل ---------- */
+
+@media (max-width:700px){
+
+.quote-card{
+
+    flex-direction:column-reverse;
+
+    gap:20px;
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+.quote-content{
+
+    text-align:center;
+
+}
+
+.quote-text{
+
+    text-align:center;
+
+    justify-content:center;
+
+    min-height:auto;
+
+}
+
+.quote-image img{
+
+    width:150px;
+
+    height:150px;
+
+}
+
+}
 
 </style>
-
-
-
-
-
-
-
-
-
