@@ -44,10 +44,42 @@ image: "[[Quote.png]]"
   </div>
 
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Steve_Jobs_Headshot_2010-CROP.jpg/250px-Steve_Jobs_Headshot_2010-CROP.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Steve_Jobs_Headshot_2010-CROP.jpg/250px-Steve_Jobs_Headshot_2010-CROP.jpg">
   </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
