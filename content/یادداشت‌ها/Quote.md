@@ -3,21 +3,26 @@ title: سخن بزرگان
 image: "[[Quote.png]]"
 ---
 
-> [!NOTE]   تیبور فیشر (Tibor Fischer)
-> هیچ میزان از هوش، انسان را از حماقت نجات نمی‌دهد
-
 <div class="quote-card">
+
   <div class="quote-content">
-    <h3>تیبور فیشر</h3>
-    <span class="quote-job">نویسنده</span>
-    
-      هیچ میزان از هوش، انسان را از حماقت نجات نمی‌دهد
-   
+
+ <h2>تیبور فیشر</h2>
+
+ <div class="quote-job">
+      نویسنده
+    </div>
+
+<blockquote class="quote-text">
+      «هیچ سطحی از هوش، انسان را از حماقت‌هایش مصون نمی‌کند.»
+    </blockquote>
+
   </div>
 
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tibor-Fischer.jpg/250px-Tibor-Fischer.jpg" alt="تیبور فیشر">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tibor-Fischer.jpg/250px-Tibor-Fischer.jpg">
   </div>
+
 </div>
 
 
@@ -25,91 +30,83 @@ image: "[[Quote.png]]"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <style>
-.quote-card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+.quote-card{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
 
-  gap: 2rem;
-  padding: 24px;
+    gap:40px;
 
-  margin: 1.5rem 0;
+    padding:30px;
 
-  border: 1px solid var(--lightgray);
-  border-radius: 18px;
+    border:1px solid #d6d6d6;
+    border-radius:22px;
 
-  background: var(--light);
-  box-shadow: 0 8px 25px rgba(0,0,0,.06);
+    background:#f8f8f8;
 }
 
 .quote-content{
-  flex:1;
+    flex:1;
+    text-align:right;
 }
 
-.quote-content h3{
-  margin:0;
-  font-size:1.6rem;
-  font-weight:700;
-  color:var(--dark);
+.quote-content h2{
+    margin:0;
+    font-size:2.2rem;
+    font-weight:700;
 }
 
-.quote-job{
-  display:block;
-  margin-top:4px;
-  color:var(--secondary);
-  font-size:.95rem;
+.quote-role{
+    margin-top:8px;
+    margin-bottom:28px;
+
+    color:#4769b2;
+    font-size:1.05rem;
 }
 
-.quote-content blockquote{
-  margin:22px 0 0;
-  padding-right:18px;
+.quote-text{
+    margin:0;
 
-  border-right:4px solid var(--secondary);
+    text-align:right;
 
-  font-size:1.15rem;
-  line-height:2;
-  color:var(--darkgray);
+    direction:rtl;
+
+    font-size:1.35rem;
+
+    line-height:2.2;
+
+    min-height:9em;      /* حدود ۴ خط جا */
+
+    border:none;
+
+    background:none;
+
+    padding:0;
+
+    white-space:pre-wrap;
 }
 
 .quote-image img{
-  width:180px;
-  height:180px;
-  object-fit:cover;
 
-  border-radius:18px;
+    width:190px;
 
-  border:4px solid white;
-  box-shadow:0 10px 25px rgba(0,0,0,.12);
+    height:190px;
+
+    object-fit:cover;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
-
-@media (max-width:700px){
-
-.quote-card{
-    flex-direction:column-reverse;
-    text-align:center;
-}
-
-.quote-content blockquote{
-    border-right:none;
-    border-top:4px solid var(--secondary);
-    padding-right:0;
-    padding-top:18px;
-}
-}
-
 </style>
+
+
+
+
+
+
+
+
+
