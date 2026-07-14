@@ -97,7 +97,7 @@ description: سخن بزرگان تاریخ
   </div>
 
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Carlo_Rovelli_no_Fronteiras_do_Pensamento_S%C3%A3o_Paulo_2017_%2834781380545%29.jpg/250px-Carlo_Rovelli_no_Fronteiras_do_Pensamento_S%C3%A3o_Paulo_2017_%2834781380545%29.jpg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRv3LNnFcnTL1J1z14IOIrNACTyCO9egetvomZSRsnpsK9FQ87f6av9-Cjn9RfkTKwcj_RdCe6EVJgmBJO5kcnHLZkjyR5vbc2bLRQVEMlsA&s=10">
   </div>
 
 </div>
