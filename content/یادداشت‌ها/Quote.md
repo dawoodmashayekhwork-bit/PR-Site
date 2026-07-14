@@ -1,6 +1,7 @@
 ---
 title: سخن بزرگان
 image: "[[Quote.png]]"
+description: سخن بزرگان تاریخ 
 ---
 
 <div class="quote-card quote-cream">
@@ -74,6 +75,34 @@ image: "[[Quote.png]]"
   </div>
 
 </div>
+
+
+<div class="quote-card quote-yellow">
+
+  <div class="quote-content">
+
+<h2> گرت هافستد</h2>
+
+  <div class="quote-job">
+       فیزیک‌دان 
+    </div>
+
+   <blockquote class="quote-text">
+     از زمانی که متوجه شدیم زمین گرد است 
+     و دیوانه وار به دور خودش میچرخه 
+     یادگرفتیم که واقعیت 
+     اونچیزی نیست که به چشممون میاد 
+    </blockquote>
+
+  </div>
+
+  <div class="quote-image">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Carlo_Rovelli_no_Fronteiras_do_Pensamento_S%C3%A3o_Paulo_2017_%2834781380545%29.jpg/250px-Carlo_Rovelli_no_Fronteiras_do_Pensamento_S%C3%A3o_Paulo_2017_%2834781380545%29.jpg">
+  </div>
+
+</div>
+
+
 
 
 
