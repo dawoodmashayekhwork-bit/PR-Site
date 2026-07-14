@@ -3,9 +3,9 @@ title: سخن بزرگان
 image: "[[Quote.png]]"
 ---
 
-<div class="quote-card">
+<div class="Q1">
 
-  <div class="quote-content">
+  <div class="Q1">
 
  <h2>تیبور فیشر</h2>
 
@@ -14,7 +14,7 @@ image: "[[Quote.png]]"
     </div>
 
 <blockquote class="quote-text">
-      «هیچ سطحی از هوش، انسان را از حماقت‌هایش مصون نمی‌کند.»
+    .هیچ سطحی از هوش، انسان را از حماقت‌هایش مصون نمی‌کند
     </blockquote>
 
 </div>
@@ -43,7 +43,7 @@ image: "[[Quote.png]]"
 
 
 <style>
-.quote-card{
+.Q1{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
@@ -51,7 +51,7 @@ image: "[[Quote.png]]"
 
     gap:40px;
 
-    padding:30px;
+    padding:100px;
 
     border:1px solid #d6d6d6;
     border-radius:22px;
