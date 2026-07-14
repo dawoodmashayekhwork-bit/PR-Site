@@ -50,25 +50,27 @@ image: "[[Quote.png]]"
 </div>
 
 
-<div class="quote-card quote-green">
+<div class="quote-card quote-purple">
 
   <div class="quote-content">
 
-<h2> ژرژ بنجامین کلمانسو</h2>
+<h2> کارلورولی</h2>
 
   <div class="quote-job">
-      سیاست مدار
+       فیزیک‌دان 
     </div>
 
    <blockquote class="quote-text">
-     انسان برای اقدام کردن باید کمی دیوانه باشد.
-     انسان معقول و منطقی با همان فکر کردن راضی میشود
+     از زمانی که متوجه شدیم زمین گرد است 
+     و دیوانه وار به دور خودش میچرخه 
+     یادگرفتیم که واقعیت 
+     اونچیزی نیست که به چشممون میاد 
     </blockquote>
 
   </div>
 
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Georges_Clemenceau_1.jpg/250px-Georges_Clemenceau_1.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Carlo_Rovelli_no_Fronteiras_do_Pensamento_S%C3%A3o_Paulo_2017_%2834781380545%29.jpg/250px-Carlo_Rovelli_no_Fronteiras_do_Pensamento_S%C3%A3o_Paulo_2017_%2834781380545%29.jpg">
   </div>
 
 </div>
