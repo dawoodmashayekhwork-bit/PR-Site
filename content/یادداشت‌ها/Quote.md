@@ -77,7 +77,7 @@ description: سخن بزرگان تاریخ
 </div>
 
 
-<div class="quote-card quote-yellow">
+<div class="quote-card quote-gray">
 
   <div class="quote-content">
 
@@ -104,6 +104,27 @@ description: سخن بزرگان تاریخ
 
 
 
+<div class="quote-card quote-yellow">
+
+  <div class="quote-content">
+
+<h2>  Annie Dillard </h2>
+
+  <div class="quote-job">
+       American author 
+    </div>
+
+   <blockquote class="quote-text">
+    How we spend our days is, of course, how we spend our lives.
+    </blockquote>
+
+  </div>
+
+  <div class="quote-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA8cm0G93ccEGSaUAxMX8MTGY952R8OJAtT82add0FtoHTXoLgaNAgLUdHlx9azfzml_jWK8cypTH4m3_jAyashiv1On7LBvc4D8GroA&s=10">
+  </div>
+
+</div>
 
 
 
