@@ -175,11 +175,50 @@ description: سخن بزرگان تاریخ
 </div>
 
 
+<div class="quote-card quote-gray">
+
+  <div class="quote-content">
+
+<h2>  James Duesenberry </h2>
+
+  <div class="quote-job">
+  اقتصاددان
+    </div>
+
+   <blockquote class="quote-text">
+ اقتصاد درباره‌ی نحوه‌ی انتخاب کردنِ افراد است و جامعه‌شناسی درباره‌ی این است که چرا آن‌ها هیچ انتخابی برای انجام دادن ندارند.
+    </blockquote>
+
+  </div>
+
+  <div class="quote-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSd0TbhmOS0HDCM-6OGXhEU00uGT549pK1TJPer0TP00naXVga7CpDnoVbWAZshzU5nAPF4yh946otBSO8AZNzv1KoyhQnWLJDSbvytG1Ldw&s=10">
+  </div>
+
+</div>
 
 
+<div class="quote-card quote-cream">
 
+  <div class="quote-content">
 
+<h2>  راسل ایکاف </h2>
 
+ <div class="quote-job">
+      نظریه‌پرداز سازمانی
+    </div>
+
+  <blockquote class="quote-text">
+آنچه که ذی‌نفعان غیرمتخصص در یک سیستم می‌خواهند حاصل شود، بسیار مرتبط‌تر از آن چیزی است که متخصصان غیرذی‌نفع در طلب آن هستند.
+    </blockquote>
+
+  </div>
+
+  <div class="quote-image">
+    <img src="https://www.iranketab.ir/Images/ProfileImages/3305e1e54463422cb5fcec2c20f2549d.jpg">
+  </div>
+
+</div>
 
 
 
