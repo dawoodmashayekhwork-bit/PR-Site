@@ -244,6 +244,34 @@ description: سخن بزرگان تاریخ
 </div>
 
 
+<div class="quote-card quote-cream">
+
+  <div class="quote-content">
+
+<h2>  عباس کیارستمی </h2>
+
+ <div class="quote-job">
+      کارگردان
+    </div>
+
+  <blockquote class="quote-text">
+      همون طور که درخت در تنهایی درخت تره 
+      انسان هم در تنهایی انسان تره 
+      ---
+      همه را مستی از پای درمیاورد
+      مرا هوشیاری
+    </blockquote>
+
+  </div>
+
+  <div class="quote-image">
+    <img src="https://cdn.tabnak.ir/files/fa/news/1401/4/10/1542622_190.jpg">
+  </div>
+
+</div>
+
+
+
 
 
 
