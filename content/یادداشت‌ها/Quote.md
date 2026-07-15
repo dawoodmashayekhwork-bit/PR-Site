@@ -254,12 +254,12 @@ description: سخن بزرگان تاریخ
       کارگردان
     </div>
 
-  <blockquote class="quote-text">
+  <blockquote class="quote-text">1.
       همون طور که درخت در تنهایی درخت تره 
       انسان هم در تنهایی انسان تره 
     </blockquote>
 
-  <blockquote class="quote-text">
+  <blockquote class="quote-text">2.
       همه را مستی از پای درمیاورد
       مرا هوشیاری
     </blockquote>
