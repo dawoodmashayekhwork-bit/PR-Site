@@ -221,6 +221,29 @@ description: سخن بزرگان تاریخ
 </div>
 
 
+<div class="quote-card quote-blue">
+
+  <div class="quote-content">
+
+<h2> Nelson Mandella </h2>
+
+  <div class="quote-job">
+      فعال سیاسی
+    </div>
+
+   <blockquote class="quote-text">
+دریافتم که شجاعت به معنای نبودِ ترس نیست، بلکه پیروزی بر آن است. انسان شجاع کسی نیست که احساس ترس نمی‌کند، بلکه کسی است که بر آن ترس غلبه می‌کند.
+    </blockquote>
+
+  </div>
+
+  <div class="quote-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzx7Iy8lyWqK3q0fdaJgox4N_ykJtq8KY-LOsERlFe-w&s=10">
+  </div>
+
+</div>
+
+
 
 
 
