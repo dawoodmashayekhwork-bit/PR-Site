@@ -257,7 +257,9 @@ description: سخن بزرگان تاریخ
   <blockquote class="quote-text">
       همون طور که درخت در تنهایی درخت تره 
       انسان هم در تنهایی انسان تره 
-      ---
+    </blockquote>
+
+  <blockquote class="quote-text">
       همه را مستی از پای درمیاورد
       مرا هوشیاری
     </blockquote>
