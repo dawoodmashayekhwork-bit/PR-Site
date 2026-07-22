@@ -5,8 +5,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 ---
 
 <!-- ================= دسته‌بندی اول: معماران و طراحان ================= -->
-##  معماران و طراحان بزرگ 🏛️
----
+## معماران و طراحان بزرگ 🏛️
 
 <div class="quote-card quote-cream">
   <div class="quote-content">
@@ -36,10 +35,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 
 
 <!-- ================= دسته‌بندی دوم: تفکر، سیستم‌ها و زندگی ================= -->
-
-##  تفکر، سیستم‌ها و استراتژی زندگی ⚙️
----
-
+## تفکر، سیستم‌ها و استراتژی زندگی ⚙️
 
 <div class="quote-card quote-purple">
   <div class="quote-content">
@@ -66,8 +62,8 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 
 
 <!-- ================= دسته‌بندی سوم: ادبیات، هنر و فلسفه ================= -->
-##  ادبیات، هنر و فلسفه ✨
----
+## ادبیات، هنر و فلسفه ✨
+
 <div class="quote-card quote-cream">
   <div class="quote-content">
     <h2>تیبور فیشر</h2>
@@ -200,6 +196,22 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 
 <!-- ================= استایل‌های اختصاصی کارت‌ها و بخش‌ها ================= -->
 <style>
+/* ---------- متمایز کردن هدرهای سطح دو (##) بدون حذف ساختار ----------- */
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px !important;
+    margin-bottom: 24px !important;
+    padding: 12px 18px;
+    background: var(--light, #faf7f2);
+    border-right: 5px solid var(--darkgray, #5d6b82);
+    border-radius: 8px;
+    font-size: 1.35rem;
+    color: var(--dark, #1f2d3d);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
+
 .quote-card {
     display: flex;
     flex-direction: row;
@@ -256,7 +268,11 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 }
 
 .quote-content h2 {
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
     font-size: 1.4rem;
     font-weight: 700;
     color: var(--dark, #1f2d3d);
