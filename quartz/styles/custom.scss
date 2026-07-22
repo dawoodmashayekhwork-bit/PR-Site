@@ -234,4 +234,25 @@ body[data-slug="index"] .content-meta time {
     display: none !important;
   }
 }
+
+/* اصلاح جهت و جایگاه فلش‌ها در منوی اکسپلورر برای زبان فارسی */
+.explorer-content {
+  /* جابجایی المان‌ها برای قرارگیری فلش در سمت درست */
+  button.folder-button {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+
+  /* چرخش فلش بسته به سمت چپ */
+  svg.fold {
+    transform: rotate(180deg);
+  }
+
+  /* چرخش فلش وقتی پوشه باز است به سمت پایین */
+  details[open] > summary svg.fold {
+    transform: rotate(90deg);
+  }
+}
+
 /* =================   ================= */
