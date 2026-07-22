@@ -226,11 +226,12 @@ body[data-slug="index"] .content-meta time {
 }
 
 
-/* مخفی کردن متن تعداد مطالب و لیست پوشه‌ها در صفحات پوشه */
-.folder-container, 
-.page-listing, 
-.section-li {
-  display: none !important;
+/* فقط مخفی کردن لیست و تعداد مطالب در متن اصلی صفحه (بدون خراب کردن سایدبار) */
+.center {
+  .folder-container, 
+  .page-listing, 
+  .section-li {
+    display: none !important;
+  }
 }
-
 /* =================   ================= */
