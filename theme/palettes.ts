@@ -192,29 +192,27 @@ export const colorPalettes = {
     },
   },
   devDark: {
-    // A more developer-focused dark theme, similar to common IDE themes
     lightMode: {
-      // Keeping a light mode variant for consistency, though less "dev-dark"
       light: "#f5f5f5",
       lightgray: "#e0e0e0",
       gray: "#bdbdbd",
       darkgray: "#616161",
       dark: "#212121",
-      secondary: "#0d47a1", // Dark blue
-      tertiary: "#00695c", // Dark teal
+      secondary: "#0d47a1",
+      tertiary: "#00695c",
       highlight: "rgba(13, 71, 161, 0.1)",
-      textHighlight: "#fff17688", // Light yellow
+      textHighlight: "#fff17688",
     },
     darkMode: {
-      light: "#1e1e1e", // Common dark bg
-      lightgray: "#2c2c2c", // Slightly lighter dark
-      gray: "#424242", // Medium dark
-      darkgray: "#bdbdbd", // Light gray for text
-      dark: "#e0e0e0", // Lighter gray for main text
-      secondary: "#bb86fc", // Purple accent (Material Design Dark)
-      tertiary: "#03dac6", // Teal accent (Material Design Dark)
-      highlight: "rgba(187, 134, 252, 0.15)", // Purple highlight
-      textHighlight: "#fce86b88", // Yellow text highlight
+      light: "#1e1e1e",
+      lightgray: "#2c2c2c",
+      gray: "#424242",
+      darkgray: "#bdbdbd",
+      dark: "#e0e0e0",
+      secondary: "#bb86fc",
+      tertiary: "#03dac6",
+      highlight: "rgba(187, 134, 252, 0.15)",
+      textHighlight: "#fce86b88",
     },
   },
   oceanVibes: {
@@ -290,7 +288,6 @@ export const colorPalettes = {
     },
   },
   sunset: {
-    // Replaces sunsetVibes
     lightMode: {
       light: "#FCEFCB",
       lightgray: "#FAD59A",
@@ -410,10 +407,32 @@ export const colorPalettes = {
       textHighlight: "rgba(255, 193, 7, 0.3)",
     },
   },
+  // پالت جدید الهام گرفته از استایل اسکچ معماری و کاغذهای کرم‌رنگ شما
+  architectSketch: {
+    lightMode: {
+      light: "#F7F2EB",       // کرم-کاغذی ملایم (بک‌گراند عکس‌ها)
+      lightgray: "#E8DFD1",   // خطوط و کادرهای ملایم
+      gray: "#C8B9A6",        // خاکستری گرم حاشیه‌ها
+      darkgray: "#5A524A",    // قهوه‌ای-خاکستری برای متن ثانویه
+      dark: "#2C3539",        // جوهر تیره معماری (متن اصلی و خطوط طرح)
+      secondary: "#2A6F97",   // آبی کلاسیک مهندسی (برای رنگ پروژه یا اکنت‌ها)
+      tertiary: "#A67B5B",    // قهوه‌ای گرم چوبی/کروم (برای یادداشت‌ها)
+      highlight: "rgba(42, 111, 151, 0.12)",
+      textHighlight: "rgba(166, 123, 91, 0.25)",
+    },
+    darkMode: {
+      light: "#1A1D20",
+      lightgray: "#262B30",
+      gray: "#4A525D",
+      darkgray: "#D0C5B4",
+      dark: "#F7F2EB",
+      secondary: "#48CAE4",
+      tertiary: "#E09F3E",
+      highlight: "rgba(72, 202, 228, 0.15)",
+      textHighlight: "rgba(224, 159, 62, 0.3)",
+    },
+  },
 }
 
 // Select your desired palette here
-// Available palettes: original, coolBlues, warmEarth, forestGreen, royalPurple, oceanicTeal, monochrome, vintageCream, devDark, oceanVibes, halloween, neon, sunset, persianAzure, sakuraDreams, cyberpunkCity, autumnGrove
-// type PaletteName = keyof typeof colorPalettes; // This line might cause issues with older TS
-
-export const currentPaletteName: keyof typeof colorPalettes = "cyberpunkCity"
+export const currentPaletteName: keyof typeof colorPalettes = "architectSketch"
