@@ -1,8 +1,79 @@
 ---
 title: سخن بزرگان
 image: "[[Quote.png]]"
-description: سخن بزرگان تاریخ 
+description: کلکسیونی از سخنان عمیق در حوزه‌های معماری، فلسفه، زندگی و ساختار سیستم‌ها 
 ---
+
+<div style="text-align: center; margin-bottom: 40px;">
+  <p style="font-size: 1.2rem; opacity: 0.8;">«سخن بزرگان، نقشه‌های راهی برای ساختن درون و برون انسان.»</p>
+</div>
+
+<!-- ================= دسته‌بندی اول: معماران و طراحان ================= -->
+<h2 style="border-bottom: 2px dashed var(--lightgray, #e8ddd0); padding-bottom: 8px; margin-top: 40px; margin-bottom: 24px;">🏛️ معماران و طراحان بزرگ</h2>
+
+<div class="quote-card quote-cream">
+  <div class="quote-content">
+    <h2>هوشنگ سیحون</h2>
+    <div class="quote-job">معمار، نقاش و مجسمه‌ساز (معمار آرامگاه‌های ملی)</div>
+    <blockquote class="quote-text">
+      «معماری، شعر منجمد است؛ و هر بنایی که ساخته می‌شود باید روح، ریشه و پیوندی عمیق با فرهنگ و خاک آن سرزمین داشته باشد.»
+    </blockquote>
+  </div>
+  <div class="quote-image">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Houshang_Seyhoun.jpg" alt="هوشنگ سیحون">
+  </div>
+</div>
+
+<div class="quote-card quote-blue">
+  <div class="quote-content">
+    <h2>فرانک لوید رایت</h2>
+    <div class="quote-job">معمار افسانه‌ای و پیشگام معماری ارگانیک</div>
+    <blockquote class="quote-text">
+      «معمار باید مردی باشد با دیدگاه عمیق؛ که امروز را ببیند، فردا را پیش‌بینی کند و گذشته را بفهمد.»
+    </blockquote>
+  </div>
+  <div class="quote-image">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Frank_Lloyd_Wright_by_Wm._Doctor_1926.jpg/250px-Frank_Lloyd_Wright_by_Wm._Doctor_1926.jpg" alt="فرانک لوید رایت">
+  </div>
+</div>
+
+
+<!-- ================= دسته‌بندی دوم: تفکر، سیستم‌ها و زندگی ================= -->
+<h2 style="border-bottom: 2px dashed var(--lightgray, #e8ddd0); padding-bottom: 8px; margin-top: 50px; margin-bottom: 24px;">⚙️ تفکر، سیستم‌ها و استراتژی زندگی</h2>
+
+<div class="quote-card quote-yellow">
+  <div class="quote-content">
+    <h2>دیوید آلن</h2>
+    <div class="quote-job">بنیان‌گذار متدولوژی GTD و مدیریت ذهن</div>
+    <blockquote class="quote-text">
+      «ذهن شما برای داشتن ایده‌ها آفریده شده است، نه برای نگهداری‌شان.»
+    </blockquote>
+  </div>
+</div>
+
+<div class="quote-card quote-purple">
+  <div class="quote-content">
+    <h2>مارکوس اورلیوس</h2>
+    <div class="quote-job">امپراتور روم و فیلسوف رواقی</div>
+    <blockquote class="quote-text">
+      «طرح و ساختار زندگی تو، توسط افکار روزمره‌ات شکل می‌گیرد؛ پس مراقب کیفیت افکارت باش.»
+    </blockquote>
+  </div>
+</div>
+
+<div class="quote-card quote-gray">
+  <div class="quote-content">
+    <h2>ریچارد فاینمن</h2>
+    <div class="quote-job">فیزیک‌دان بزرگ و برنده نوبل</div>
+    <blockquote class="quote-text">
+      «اولین اصل این است که نباید خودت را فریب دهی، و تو راحت‌ترین کسی هستی که می‌توانی خودت را فریب دهی.»
+    </blockquote>
+  </div>
+</div>
+
+
+<!-- ================= دسته‌بندی سوم: ادبیات، هنر و فلسفه ================= -->
+<h2 style="border-bottom: 2px dashed var(--lightgray, #e8ddd0); padding-bottom: 8px; margin-top: 50px; margin-bottom: 24px;">✨ ادبیات، هنر و فلسفه</h2>
 
 <div class="quote-card quote-cream">
   <div class="quote-content">
@@ -20,7 +91,7 @@ description: سخن بزرگان تاریخ
 <div class="quote-card quote-blue">
   <div class="quote-content">
     <h2>استیو جابز</h2>
-    <div class="quote-job">کارآفرین</div>
+    <div class="quote-job">کارآفرین و طراح محصولات ساختاری</div>
     <blockquote class="quote-text">
       تنها راه خلق کارهای بزرگ، این است که عاشق کاری باشید که هر روز انجام می‌دهید.
     </blockquote>
@@ -32,39 +103,17 @@ description: سخن بزرگان تاریخ
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Steve_Jobs_Headshot_2010-CROP.jpg/250px-Steve_Jobs_Headshot_2010-CROP.jpg" alt="استیو جابز">
   </div>
 </div>
-<div class="quote-card quote-purple">
-  <div class="quote-content">
-    <h2>مولانا</h2>
-    <div class="quote-job">شاعر و عارف بزرگ</div>
-    <blockquote class="quote-text">
-      آب کم جو، تشنگی آور به دست.
-    </blockquote>
-  </div>
-</div>
 
 <div class="quote-card quote-yellow">
   <div class="quote-content">
     <h2>کارلو روولی</h2>
-    <div class="quote-job">فیزیک‌دان</div>
+    <div class="quote-job">فیزیک‌دان و فیلسوف</div>
     <blockquote class="quote-text">
       از زمانی که متوجه شدیم زمین گرد است و دیوانه‌وار به دور خودش می‌چرخد، یاد گرفتیم که واقعیت، آن‌چیزی نیست که به چشممان می‌آید.
     </blockquote>
   </div>
   <div class="quote-image">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Carlo_Rovelli_no_Fronteiras_do_Pensamento_S%C3%A3o_Paulo_2017_%2834781380545%29.jpg/250px-Carlo_Rovelli_no_Fronteiras_do_Pensamento_S%C3%A3o_Paulo_2017_%2834781380545%29.jpg" alt="کارلو روولی">
-  </div>
-</div>
-
-<div class="quote-card quote-gray">
-  <div class="quote-content">
-    <h2>گرت هافستد</h2>
-    <div class="quote-job">جامعه‌شناس و روانشناس اجتماعی</div>
-    <blockquote class="quote-text">
-      فرهنگ بیشتر از آنچه فکرش را بکنیم بر روی الگوهای فکری و رفتاری ما سایه اندخته است.
-    </blockquote>
-  </div>
-  <div class="quote-image">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRv3LNnFcnTL1J1z14IOIrNACTyCO9egetvomZSRsnpsK9FQ87f6av9-Cjn9RfkTKwcj_RdCe6EVJgmBJO5kcnHLZkjyR5vbc2bLRQVEMlsA&s=10" alt="گرت هافستد">
   </div>
 </div>
 
@@ -81,19 +130,6 @@ description: سخن بزرگان تاریخ
   </div>
 </div>
 
-<div class="quote-card quote-gray">
-  <div class="quote-content">
-    <h2>چارلز ددریچ</h2>
-    <div class="quote-job">بنیان‌گذار سازمان Synanon</div>
-    <blockquote class="quote-text">
-      امروز، اولین روزِ ادامهٔ زندگی توست.
-    </blockquote>
-  </div>
-  <div class="quote-image">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUjSX9jcQKWc3FtRkbuizkVf3eOhv4PWi2dtd-QShkKPTSy5LxukC_uMs_t79U2ooRNfsONGMvy1_oRAuM3VhieHlQpvuy4ZPyzO6zjbpF&s=10" alt="چارلز ددریچ">
-  </div>
-</div>
-
 <div class="quote-card quote-blue">
   <div class="quote-content">
     <h2>احمد شاملو</h2>
@@ -107,36 +143,10 @@ description: سخن بزرگان تاریخ
   </div>
 </div>
 
-<div class="quote-card quote-gray">
-  <div class="quote-content">
-    <h2>جیمز دوزنبری</h2>
-    <div class="quote-job">اقتصاددان</div>
-    <blockquote class="quote-text">
-      اقتصاد درباره‌ی نحوه‌ی انتخاب کردنِ افراد است و جامعه‌شناسی درباره‌ی این است که چرا آن‌ها هیچ انتخابی برای انجام دادن ندارند.
-    </blockquote>
-  </div>
-  <div class="quote-image">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSd0TbhmOS0HDCM-6OGXhEU00uGT549pK1TJPer0TP00naXVga7CpDnoVbWAZshzU5nAPF4yh946otBSO8AZNzv1KoyhQnWLJDSbvytG1Ldw&s=10" alt="جیمز دوزنبری">
-  </div>
-</div>
-
-<div class="quote-card quote-cream">
-  <div class="quote-content">
-    <h2>راسل ایکاف</h2>
-    <div class="quote-job">نظریه‌پرداز سازمانی</div>
-    <blockquote class="quote-text">
-      آنچه که ذی‌نفعان غیرمتخصص در یک سیستم می‌خواهند حاصل شود، بسیار مرتبط‌تر از آن چیزی است که متخصصان غیرذی‌نفع در طلب آن هستند.
-    </blockquote>
-  </div>
-  <div class="quote-image">
-    <img src="https://www.iranketab.ir/Images/ProfileImages/3305e1e54463422cb5fcec2c20f2549d.jpg" alt="راسل ایکاف">
-  </div>
-</div>
-
 <div class="quote-card quote-blue">
   <div class="quote-content">
     <h2>نلسون ماندلا</h2>
-    <div class="quote-job">فعال سیاسی</div>
+    <div class="quote-job">فعال سیاسی و رهبر آزادی</div>
     <blockquote class="quote-text">
       دریافتم که شجاعت به معنای نبودِ ترس نیست، بلکه پیروزی بر آن است. انسان شجاع کسی نیست که احساس ترس نمی‌کند، بلکه کسی است که بر آن ترس غلبه می‌کند.
     </blockquote>
@@ -149,7 +159,7 @@ description: سخن بزرگان تاریخ
 <div class="quote-card quote-cream">
   <div class="quote-content">
     <h2>عباس کیارستمی</h2>
-    <div class="quote-job">کارگردان</div>
+    <div class="quote-job">کارگردان و عکاس</div>
     <blockquote class="quote-text" style="margin-bottom: 12px;">
       ۱. همون طور که درخت در تنهایی درخت تره، انسان هم در تنهایی انسان‌تره.
     </blockquote>
@@ -162,7 +172,6 @@ description: سخن بزرگان تاریخ
   </div>
 </div>
 
-<!-- کارت‌های ویژه برای بزرگان و متون عمیق‌تر -->
 <div class="quote-card quote-green">
   <div class="quote-content">
     <h2>امام علی (ع)</h2>
@@ -173,19 +182,30 @@ description: سخن بزرگان تاریخ
   </div>
 </div>
 
+<div class="quote-card quote-purple">
+  <div class="quote-content">
+    <h2>مولانا</h2>
+    <div class="quote-job">شاعر و عارف بزرگ</div>
+    <blockquote class="quote-text">
+      آب کم جو، تشنگی آور به دست.
+    </blockquote>
+  </div>
+</div>
 
 <div class="quote-card quote-cream" style="flex-direction: column; align-items: flex-start;">
   <div class="quote-content" style="width: 100%;">
     <h2>آسیا در برابر غرب</h2>
     <div class="quote-job">داریوش شایگان</div>
     <blockquote class="quote-text" style="font-size: 1.15rem; line-height: 2.1; text-align: justify; display: block; min-height: auto;">
-      روح ایرانی و شاید روح دیگر تمدن‌های بزرگ آسیایی، پیچیده‌تر از روح آلمانی، روسی یا فرانسوی است، چراکه ما ملت کهنی هستیم. البته پیری دال بر درایت بیش‌تر نیست، پیری حاکی از تجربهٔ بیش‌تر است و تجربه هم مایهٔ ساییدگی است. یکی از آثار ساییدگی این است که زوایای برندهٔ روان انسان کُند می‌شود، گوشه‌های تیز نرم می‌شوند، و زمختی‌ها صاف می‌شوند و انسان، مانند قلوه سنگ‌های بستر رودخانه، به علّت جریان مداوم آب گرد و هموار می‌شود...
+      روح ایرانی و شاید روح دیگر تمدن‌های بزرگ آسیایی، پیچیده‌تر از روح آلمانی، روسی یا فرانسوی است، چراکه ما ملت کهنی هستیم. البته پیری دال بر درایت بیش‌تر نیست، پیری حاکی از تجربهٔ بیش‌تر است و تجربه هم مایهٔ ساییدگی است...
       <br><br>
-      این بینش عارفانه است که کل جهان‌بینی ما را تشکیل می‌داده و تجلیات آن را در شعر و ادب فارسی می‌یابیم. روح قلندری، آیین رندی، پشت‌پا زدن به دنیا، امور را به جدّ نگرفتن، طنز حکیمانه پیشه ساختن و خویش را در معرض ملامت دیگران قرار دادن از جمله خصایص این بینش است.
+      این بینش عارفانه است که کل جهان‌بینی ما را تشکیل می‌داده و تجلیات آن را در شعر و ادب فارسی می‌یابیم. روح قلندری، آیین رندی، پشت‌پا زدن به دنیا، امور را به جدّ نگرفتن و طنز حکیمانه پیشه ساختن از جمله خصایص این بینش است.
     </blockquote>
   </div>
 </div>
 
+
+<!-- ================= استایل‌های اختصاصی کارت‌ها و بخش‌ها ================= -->
 <style>
 .quote-card {
     display: flex;
@@ -193,7 +213,7 @@ description: سخن بزرگان تاریخ
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    margin: 34px 0;
+    margin: 28px 0;
     padding: 26px 32px;
     border-radius: 20px;
     transition: all 0.3s ease;
@@ -205,7 +225,7 @@ description: سخن بزرگان تاریخ
     box-shadow: 0 12px 30px rgba(0,0,0,0.08);
 }
 
-/* ---------- رنگ‌بندی هماهنگ با استایل معماری و کاغذ قدیمی ---------- */
+/* ---------- رنگ‌بندی هماهنگ با متغیرهای سیستم ---------- */
 .quote-cream {
     background: var(--light, #faf7f2);
     border: 1px solid var(--lightgray, #e8ddd0);
