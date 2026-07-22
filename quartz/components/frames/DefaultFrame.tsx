@@ -58,7 +58,7 @@ export const DefaultFrame: PageFrame = {
 
           {/* فوتر اختصاصی تمیز و راست‌چین در وسط صفحه */}
           <footer style={{ textAlign: "center", padding: "2rem 0", direction: "rtl", color: "var(--gray)" }}>
-            <p style={{ margin: 0, fontSize: "0.9rem" }}>سایت داود مشایخ</p>
+            <p style={{ margin: 0, fontSize: "0.9rem" }}> داود مشایخ | یادداشت‌های شخصی و حرفه‌ای © ۲۰۲۶ </p>
           </footer>
         </div>
 
