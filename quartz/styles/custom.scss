@@ -225,7 +225,12 @@ body[data-slug="index"] .content-meta time {
   color: var(--light);
 }
 
-/* ================= رزومه ================= */
 
+/* مخفی کردن متن تعداد مطالب و لیست پوشه‌ها در صفحات پوشه */
+.folder-container, 
+.page-listing, 
+.section-li {
+  display: none !important;
+}
 
-/* ================= چند ضلعی ================= */
+/* =================   ================= */
