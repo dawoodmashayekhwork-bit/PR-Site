@@ -7,7 +7,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 <!-- ================= دسته‌بندی اول: معماران و طراحان ================= -->
 ## معماران و طراحان بزرگ 🏛️
 
-<div class="quote-card quote-cream">
+<div class="quote-row">
   <div class="quote-content">
     <h2>هوشنگ سیحون</h2>
     <div class="quote-job">معمار، نقاش و مجسمه‌ساز (معمار آرامگاه‌های ملی)</div>
@@ -20,7 +20,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-blue">
+<div class="quote-row">
   <div class="quote-content">
     <h2>فرانک لوید رایت</h2>
     <div class="quote-job">معمار افسانه‌ای و پیشگام معماری ارگانیک</div>
@@ -37,7 +37,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 <!-- ================= دسته‌بندی دوم: تفکر، سیستم‌ها و زندگی ================= -->
 ## تفکر، سیستم‌ها و استراتژی زندگی ⚙️
 
-<div class="quote-card quote-purple">
+<div class="quote-row">
   <div class="quote-content">
     <h2>مارکوس اورلیوس</h2>
     <div class="quote-job">امپراتور روم و فیلسوف رواقی</div>
@@ -47,7 +47,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-gray">
+<div class="quote-row">
   <div class="quote-content">
     <h2>ریچارد فاینمن</h2>
     <div class="quote-job">فیزیک‌دان بزرگ و برنده نوبل</div>
@@ -64,7 +64,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 <!-- ================= دسته‌بندی سوم: ادبیات، هنر و فلسفه ================= -->
 ## ادبیات، هنر و فلسفه ✨
 
-<div class="quote-card quote-cream">
+<div class="quote-row">
   <div class="quote-content">
     <h2>تیبور فیشر</h2>
     <div class="quote-job">نویسنده</div>
@@ -77,14 +77,14 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-blue">
+<div class="quote-row">
   <div class="quote-content">
     <h2>استیو جابز</h2>
     <div class="quote-job">کارآفرین و طراح محصولات ساختاری</div>
     <blockquote class="quote-text">
       تنها راه خلق کارهای بزرگ، این است که عاشق کاری باشید که هر روز انجام می‌دهید.
     </blockquote>
-    <blockquote class="quote-text" style="font-size: 1.15rem; opacity: 0.85; margin-top: 8px;">
+    <blockquote class="quote-text" style="font-size: 1.15rem; opacity: 0.75; margin-top: 6px;">
       Stay hungry, stay foolish, and never settle.
     </blockquote>
   </div>
@@ -93,7 +93,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-yellow">
+<div class="quote-row">
   <div class="quote-content">
     <h2>کارلو روولی</h2>
     <div class="quote-job">فیزیک‌دان و فیلسوف</div>
@@ -106,7 +106,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-purple">
+<div class="quote-row">
   <div class="quote-content">
     <h2>آنی دیلارد</h2>
     <div class="quote-job">نویسنده</div>
@@ -119,7 +119,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-blue">
+<div class="quote-row">
   <div class="quote-content">
     <h2>احمد شاملو</h2>
     <div class="quote-job">شاعر</div>
@@ -132,7 +132,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-blue">
+<div class="quote-row">
   <div class="quote-content">
     <h2>نلسون ماندلا</h2>
     <div class="quote-job">فعال سیاسی و رهبر آزادی</div>
@@ -145,11 +145,11 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-cream">
+<div class="quote-row">
   <div class="quote-content">
     <h2>عباس کیارستمی</h2>
     <div class="quote-job">کارگردان و عکاس</div>
-    <blockquote class="quote-text" style="margin-bottom: 12px;">
+    <blockquote class="quote-text" style="margin-bottom: 8px;">
       ۱. همون طور که درخت در تنهایی درخت تره، انسان هم در تنهایی انسان‌تره.
     </blockquote>
     <blockquote class="quote-text">
@@ -161,7 +161,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-green">
+<div class="quote-row">
   <div class="quote-content">
     <h2>امام علی (ع)</h2>
     <div class="quote-job">پیشوای دین</div>
@@ -171,7 +171,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-purple">
+<div class="quote-row">
   <div class="quote-content">
     <h2>مولانا</h2>
     <div class="quote-job">شاعر و عارف بزرگ</div>
@@ -181,11 +181,11 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
   </div>
 </div>
 
-<div class="quote-card quote-cream" style="flex-direction: column; align-items: flex-start;">
+<div class="quote-row" style="flex-direction: column; align-items: flex-start;">
   <div class="quote-content" style="width: 100%;">
     <h2>آسیا در برابر غرب</h2>
     <div class="quote-job">داریوش شایگان</div>
-    <blockquote class="quote-text" style="font-size: 1.15rem; line-height: 2.1; text-align: justify; display: block; min-height: auto;">
+    <blockquote class="quote-text" style="font-size: 1.15rem; line-height: 2.1; text-align: justify; display: block; min-height: auto; border-right: none; padding-right: 0;">
       روح ایرانی و شاید روح دیگر تمدن‌های بزرگ آسیایی، پیچیده‌تر از روح آلمانی، روسی یا فرانسوی است، چراکه ما ملت کهنی هستیم. البته پیری دال بر درایت بیش‌تر نیست، پیری حاکی از تجربهٔ بیش‌تر است و تجربه هم مایهٔ ساییدگی است...
       <br><br>
       این بینش عارفانه است که کل جهان‌بینی ما را تشکیل می‌داده و تجلیات آن را در شعر و ادب فارسی می‌یابیم. روح قلندری، آیین رندی، پشت‌پا زدن به دنیا، امور را به جدّ نگرفتن و طنز حکیمانه پیشه ساختن از جمله خصایص این بینش است.
@@ -194,71 +194,37 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 </div>
 
 
-<!-- ================= استایل‌های اختصاصی کارت‌ها و بخش‌ها ================= -->
+<!-- ================= استایل‌های مینیمال و مجله‌ای ================= -->
 <style>
-/* ---------- متمایز کردن هدرهای سطح دو (##) بدون حذف ساختار ----------- */
+/* ---------- استایل هدرهای دسته بندی (بدون خراب شدن TOC) ----------- */
 h2 {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-top: 50px !important;
-    margin-bottom: 24px !important;
-    padding: 12px 18px;
-    background: var(--light, #faf7f2);
-    border-right: 5px solid var(--darkgray, #5d6b82);
-    border-radius: 8px;
+    gap: 12px;
+    margin-top: 55px !important;
+    margin-bottom: 30px !important;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--lightgray, #e8ddd0);
     font-size: 1.35rem;
     color: var(--dark, #1f2d3d);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    letter-spacing: -0.5px;
 }
 
-.quote-card {
+/* ---------- استایل خطی و تمیز هر نقل‌قول (بدون کادر و باکس) ---------- */
+.quote-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    margin: 28px 0;
-    padding: 26px 32px;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+    margin: 45px 0;
+    padding-bottom: 35px;
+    border-bottom: 1px dashed var(--lightgray, #e8ddd0);
+    transition: transform 0.2s ease;
 }
 
-.quote-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
-}
-
-/* ---------- رنگ‌بندی هماهنگ با متغیرهای سیستم ---------- */
-.quote-cream {
-    background: var(--light, #faf7f2);
-    border: 1px solid var(--lightgray, #e8ddd0);
-}
-
-.quote-blue {
-    background: var(--light, #eef5ff);
-    border: 1px solid var(--lightgray, #cddff9);
-}
-
-.quote-green {
-    background: var(--light, #eef8f0);
-    border: 1px solid var(--lightgray, #d4e7d8);
-}
-
-.quote-purple {
-    background: var(--light, #f5f2fb);
-    border: 1px solid var(--lightgray, #ddd3f0);
-}
-
-.quote-yellow {
-    background: var(--light, #fff8e8);
-    border: 1px solid var(--lightgray, #f0dfb6);
-}
-
-.quote-gray {
-    background: var(--light, #f6f7f8);
-    border: 1px solid var(--lightgray, #dde2e6);
+.quote-row:hover {
+    transform: translateX(-4px);
 }
 
 /* ---------- محتوای متنی ---------- */
@@ -270,19 +236,18 @@ h2 {
 .quote-content h2 {
     margin: 0 !important;
     padding: 0 !important;
-    background: none !important;
     border: none !important;
-    box-shadow: none !important;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: var(--dark, #1f2d3d);
 }
 
 .quote-job {
-    margin-top: 4px;
-    margin-bottom: 14px;
+    margin-top: 3px;
+    margin-bottom: 12px;
     color: var(--darkgray, #5d6b82);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    opacity: 0.85;
 }
 
 .quote-text {
@@ -291,36 +256,40 @@ h2 {
     align-items: center;
     text-align: right;
     direction: rtl;
-    font-size: 1.25rem;
-    line-height: 1.85;
+    font-size: 1.2rem;
+    line-height: 1.9;
     color: var(--dark, #2f4055);
+    border-right: 3px solid var(--secondary, #2a6f97);
+    padding-right: 14px;
 }
 
-/* ---------- عکس‌ها ---------- */
+/* ---------- عکس‌های دایره‌ای/مینیمال ---------- */
 .quote-image {
     flex-shrink: 0;
 }
 
 .quote-image img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
-    border-radius: 14px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    border-radius: 50%;
+    border: 3px solid var(--lightgray, #e8ddd0);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
     transition: transform 0.3s ease;
 }
 
-.quote-card:hover .quote-image img {
-    transform: scale(1.02);
+.quote-row:hover .quote-image img {
+    transform: scale(1.05);
+    border-color: var(--secondary, #2a6f97);
 }
 
 /* ---------- واکنش‌گرایی در موبایل ---------- */
 @media (max-width: 700px) {
-    .quote-card {
+    .quote-row {
         flex-direction: column-reverse !important;
         gap: 20px;
-        padding: 20px;
         text-align: center;
+        padding-bottom: 30px;
     }
 
     .quote-content {
@@ -330,11 +299,15 @@ h2 {
     .quote-text {
         text-align: center;
         justify-content: center;
+        border-right: none;
+        border-top: 3px solid var(--secondary, #2a6f97);
+        padding-right: 0;
+        padding-top: 12px;
     }
 
     .quote-image img {
-        width: 130px;
-        height: 130px;
+        width: 100px;
+        height: 100px;
     }
 }
 </style>
