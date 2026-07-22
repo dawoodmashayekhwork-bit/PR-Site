@@ -13,7 +13,6 @@ export const DefaultFrame: PageFrame = {
     afterBody,
     left,
     right,
-    footer: Footer,
   }: PageFrameProps) {
     return (
       <>
@@ -56,6 +55,11 @@ export const DefaultFrame: PageFrame = {
               <BodyComponent {...componentData} />
             ))}
           </div>
+
+          {/* فوتر اختصاصی تمیز و راست‌چین در وسط صفحه */}
+          <footer style={{ textAlign: "center", padding: "2rem 0", direction: "rtl", color: "var(--gray)" }}>
+            <p style={{ margin: 0, fontSize: "0.9rem" }}>سایت داود مشایخ</p>
+          </footer>
         </div>
 
         <div class="right sidebar">
@@ -63,8 +67,6 @@ export const DefaultFrame: PageFrame = {
             <BodyComponent {...componentData} />
           ))}
         </div>
-
-        <Footer {...componentData} />
       </>
     )
   },

@@ -249,14 +249,8 @@ plugins:
       position: afterBody
       priority: 10
 
- -  source: github:quartz-community/footer
-    enabled: true
-    options:
-      links: {}
-      text: "سایت داود مشایخ"
-    layout:
-      position: afterBody
-      priority: 100
+  - source: github:quartz-community/footer
+    enabled: false
 
   - source: github:quartz-community/recent-notes
     enabled: false
