@@ -48,15 +48,15 @@ export const DefaultFrame: PageFrame = {
             ))}
           </div>
 
-          <hr />
+          <hr style={{ marginBottom: "0.5rem" }} />
 
-          <div class="page-footer">
+          <div class="page-footer" style={{ margin: 0, padding: 0 }}>
             {afterBody.map((BodyComponent) => (
               <BodyComponent {...componentData} />
             ))}
           </div>
 
-          {/* فوتر دو طرفه سفارشی بدون خط اضافه */}
+          {/* فوتر چسبیده به خط */}
           <footer
             style={{
               display: "flex",
@@ -64,7 +64,8 @@ export const DefaultFrame: PageFrame = {
               alignItems: "center",
               flexWrap: "wrap",
               gap: "1rem",
-              padding: "1.5rem 0",
+              padding: "0.5rem 0 1.5rem 0",
+              marginTop: "-0.2rem",
               direction: "rtl",
               fontSize: "0.85rem",
               color: "var(--gray)",
