@@ -32,6 +32,15 @@ description: سخن بزرگان تاریخ
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Steve_Jobs_Headshot_2010-CROP.jpg/250px-Steve_Jobs_Headshot_2010-CROP.jpg" alt="استیو جابز">
   </div>
 </div>
+<div class="quote-card quote-purple">
+  <div class="quote-content">
+    <h2>مولانا</h2>
+    <div class="quote-job">شاعر و عارف بزرگ</div>
+    <blockquote class="quote-text">
+      آب کم جو، تشنگی آور به دست.
+    </blockquote>
+  </div>
+</div>
 
 <div class="quote-card quote-yellow">
   <div class="quote-content">
@@ -164,15 +173,6 @@ description: سخن بزرگان تاریخ
   </div>
 </div>
 
-<div class="quote-card quote-purple">
-  <div class="quote-content">
-    <h2>مولانا</h2>
-    <div class="quote-job">شاعر و عارف بزرگ</div>
-    <blockquote class="quote-text">
-      آب کم جو، تشنگی آور به دست.
-    </blockquote>
-  </div>
-</div>
 
 <div class="quote-card quote-cream" style="flex-direction: column; align-items: flex-start;">
   <div class="quote-content" style="width: 100%;">
