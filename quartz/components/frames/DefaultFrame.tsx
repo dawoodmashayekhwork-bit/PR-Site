@@ -56,9 +56,42 @@ export const DefaultFrame: PageFrame = {
             ))}
           </div>
 
-          {/* فوتر اختصاصی تمیز و راست‌چین در وسط صفحه */}
-          <footer style={{ textAlign: "center", padding: "2rem 0", direction: "rtl", color: "var(--gray)" }}>
-            <p style={{ margin: 0, fontSize: "0.9rem" }}> داود مشایخ | یادداشت‌های شخصی و حرفه‌ای © ۲۰۲۶ </p>
+          {/* فوتر دو طرفه سفارشی */}
+          <footer
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              flexWrap: "wrap",
+              gap: "1rem",
+              padding: "1.5rem 0",
+              direction: "rtl",
+              fontSize: "0.85rem",
+              color: "var(--gray)",
+              borderTop: "1px solid var(--lightgray)",
+              marginTop: "2rem",
+            }}
+          >
+            {/* سمت راست: لینک‌های دسترسی سریع */}
+            <div style={{ display: "flex", gap: "1.2rem", flexWrap: "wrap" }}>
+              <a href="http://dawoodmashayekh.ir/" style={{ color: "var(--secondary)", textDecoration: "none" }}>
+                خانه
+              </a>
+              <a href="http://dawoodmashayekh.ir/%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D9%87%D8%A7/" style={{ color: "var(--secondary)", textDecoration: "none" }}>
+                پروژه‌ها
+              </a>
+              <a href="http://dawoodmashayekh.ir/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%85%D9%86/" style={{ color: "var(--secondary)", textDecoration: "none" }}>
+                من کی هستم
+              </a>
+              <a href="http://dawoodmashayekh.ir/%DB%8C%D8%A7%D8%AF%D8%AF%D8%A7%D8%B4%D8%AA%E2%80%8C%D9%87%D8%A7/" style={{ color: "var(--secondary)", textDecoration: "none" }}>
+                یادداشت‌ها
+              </a>
+            </div>
+
+            {/* سمت چپ: متن برندینگ و کپی‌رایت */}
+            <div>
+              <span>داود مشایخ | یادداشت‌های شخصی و حرفه‌ای © ۲۰۲۶</span>
+            </div>
           </footer>
         </div>
 
