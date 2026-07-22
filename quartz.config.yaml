@@ -250,7 +250,7 @@ plugins:
       priority: 10
 
   - source: github:quartz-community/footer
-    enabled: true
+    enabled: false
     layout:
       position: afterBody
       priority: 100
