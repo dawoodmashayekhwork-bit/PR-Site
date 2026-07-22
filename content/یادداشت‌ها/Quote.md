@@ -3,10 +3,10 @@ title: سخن بزرگان
 image: "[[Quote.png]]"
 description: کلکسیونی از سخنان عمیق در حوزه‌های معماری، فلسفه، زندگی و ساختار سیستم‌ها 
 ---
-پ
 
 <!-- ================= دسته‌بندی اول: معماران و طراحان ================= -->
 ##  معماران و طراحان بزرگ 🏛️
+---
 
 <div class="quote-card quote-cream">
   <div class="quote-content">
@@ -38,16 +38,8 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 <!-- ================= دسته‌بندی دوم: تفکر، سیستم‌ها و زندگی ================= -->
 
 ##  تفکر، سیستم‌ها و استراتژی زندگی ⚙️
+---
 
-<div class="quote-card quote-yellow">
-  <div class="quote-content">
-    <h2>دیوید آلن</h2>
-    <div class="quote-job">بنیان‌گذار متدولوژی GTD و مدیریت ذهن</div>
-    <blockquote class="quote-text">
-      «ذهن شما برای داشتن ایده‌ها آفریده شده است، نه برای نگهداری‌شان.»
-    </blockquote>
-  </div>
-</div>
 
 <div class="quote-card quote-purple">
   <div class="quote-content">
@@ -67,12 +59,15 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
       «اولین اصل این است که نباید خودت را فریب دهی، و تو راحت‌ترین کسی هستی که می‌توانی خودت را فریب دهی.»
     </blockquote>
   </div>
+   <div class="quote-image">
+    <img src="https://upload.wikimedia.org/wikipedia/fa/4/42/Richard_Feynman_Nobel.jpg" alt="ریچارد فاینمن">
+  </div>
 </div>
 
 
 <!-- ================= دسته‌بندی سوم: ادبیات، هنر و فلسفه ================= -->
 ##  ادبیات، هنر و فلسفه ✨
-
+---
 <div class="quote-card quote-cream">
   <div class="quote-content">
     <h2>تیبور فیشر</h2>
