@@ -14,6 +14,12 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     <blockquote class="quote-text">
       «معماری، شعر منجمد است؛ و هر بنایی که ساخته می‌شود باید روح، ریشه و پیوندی عمیق با فرهنگ و خاک آن سرزمین داشته باشد.»
     </blockquote>
+     <blockquote class="quote-text">
+      «حقیقت باید عریان و بی‌پرده در معماری خودنمایی کند؛ یک معمار خوب باید مثل یک شعر عالی، ساده، سهل و ممتنع باشد. طرح نقشه یک ساختمان مثل حل یک مسئله است؛ باید همیشه ساده‌ترین راه‌حل را در نظر گرفت.»
+    </blockquote>
+    <blockquote class="quote-text">
+      «معماری زبان گویای حالات روحی و فکری یک جامعه است.»
+    </blockquote>
   </div>
   <div class="quote-image">
     <img src="https://www.iranketab.ir/Images/ProfileImages/796aca55f95143eb8ca3db5030e5cbc4.jpg" alt="هوشنگ سیحون">
