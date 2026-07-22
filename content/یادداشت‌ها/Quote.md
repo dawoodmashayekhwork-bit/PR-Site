@@ -39,7 +39,10 @@ description: سخن بزرگان تاریخ
     </div>
 
    <blockquote class="quote-text">
-      «تنها راه انجام کارهای بزرگ، عاشق کاری بودن است که انجام می‌دهید.»
+      تنها راه خلق کارهای بزرگ، این است که عاشق کاری باشید که هر روز انجام می‌دهید.
+    </blockquote>
+    <blockquote class="quote-text">
+      stay hungry stay foolish and never settle
     </blockquote>
 
   </div>
