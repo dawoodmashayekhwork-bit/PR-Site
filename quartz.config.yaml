@@ -280,6 +280,11 @@ plugins:
       linkCitations: false
       csl: apa
     order: 85
+    - source: github:quartz-community/footer
+    enabled: true
+    layout:
+      position: afterBody
+      priority: 100
 layout:
   groups:
     toolbar:
