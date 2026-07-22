@@ -209,7 +209,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     </blockquote>
   </div>
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/fa/thumb/5/58/Louis_Isadore_Kahn.jpg/250px-Louis_Isadore_Kahn.jpg" alt="فریدریش نیچه">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/250px-Nietzsche187a.jpg" alt="فریدریش نیچه">
   </div>
 </div>
 
