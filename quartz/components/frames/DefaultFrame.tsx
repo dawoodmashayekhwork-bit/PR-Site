@@ -56,7 +56,7 @@ export const DefaultFrame: PageFrame = {
             ))}
           </div>
 
-          {/* فوتر دو طرفه سفارشی */}
+          {/* فوتر دو طرفه سفارشی بدون خط اضافه */}
           <footer
             style={{
               display: "flex",
@@ -68,8 +68,6 @@ export const DefaultFrame: PageFrame = {
               direction: "rtl",
               fontSize: "0.85rem",
               color: "var(--gray)",
-              borderTop: "1px solid var(--lightgray)",
-              marginTop: "2rem",
             }}
           >
             {/* سمت راست: لینک‌های دسترسی سریع */}
