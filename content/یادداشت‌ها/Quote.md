@@ -22,7 +22,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     </blockquote>
   </div>
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Houshant_Seyhoun_in_his_office.jpg/220px-Houshant_Seyhoun_in_his_office.jpg" alt="هوشنگ سیحون">
+    <img src="https://www.iranketab.ir/Images/ProfileImages/796aca55f95143eb8ca3db5030e5cbc4.jpg" alt="هوشنگ سیحون">
   </div>
 </div>
 
@@ -48,7 +48,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     </blockquote>
   </div>
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Louis_Kahn_1961.jpg/220px-Louis_Kahn_1961.jpg" alt="لویی کان">
+    <img src="https://upload.wikimedia.org/wikipedia/fa/thumb/5/58/Louis_Isadore_Kahn.jpg/250px-Louis_Isadore_Kahn.jpg" alt="لویی کان">
   </div>
 </div>
 
@@ -134,7 +134,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     </blockquote>
   </div>
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Annie_Dillard_by_Nancy_Crampton.jpg/220px-Annie_Dillard_by_Nancy_Crampton.jpg" alt="آنی دیلارد">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA8cm0G93ccEGSaUAxMX8MTGY952R8OJAtT82add0FtoHTXoLgaNAgLUdHlx9azfzml_jWK8cypTH4m3_jAyashiv1On7LBvc4D8GroA&s=10" alt="آنی دیلارد">
   </div>
 </div>
 
@@ -147,7 +147,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     </blockquote>
   </div>
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ahmad_Shamlou_by_Javad_Jeito_2.jpg/220px-Ahmad_Shamlou_by_Javad_Jeito_2.jpg" alt="احمد شاملو">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGtdI8YI681uAdDd2ci2ZOByhcc9gM_XBn4B0GFbnjzObS84iLL3poC5bfBAckTvGGO1_B&s" alt="احمد شاملو">
   </div>
 </div>
 
@@ -160,7 +160,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     </blockquote>
   </div>
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994_%28headshot%29.jpg/220px-Nelson_Mandela_1994_%28headshot%29.jpg" alt="نلسون ماندلا">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzx7Iy8lyWqK3q0fdaJgox4N_ykJtq8KY-LOsERlFe-w&s=10" alt="نلسون ماندلا">
   </div>
 </div>
 
@@ -176,7 +176,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     </blockquote>
   </div>
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Abbas_Kiarostami_at_the_Marrakech_International_Film_Festival_2015_%28cropped%29.jpg/220px-Abbas_Kiarostami_at_the_Marrakech_International_Film_Festival_2015_%28cropped%29.jpg" alt="عباس کیارستمی">
+    <img src="https://cdn.tabnak.ir/files/fa/news/1401/4/10/1542622_190.jpg" alt="عباس کیارستمی">
   </div>
 </div>
 
@@ -209,7 +209,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     </blockquote>
   </div>
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/220px-Nietzsche187a.jpg" alt="فریدریش نیچه">
+    <img src="https://upload.wikimedia.org/wikipedia/fa/thumb/5/58/Louis_Isadore_Kahn.jpg/250px-Louis_Isadore_Kahn.jpg" alt="فریدریش نیچه">
   </div>
 </div>
 
