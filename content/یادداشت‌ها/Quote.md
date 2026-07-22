@@ -3,13 +3,10 @@ title: سخن بزرگان
 image: "[[Quote.png]]"
 description: کلکسیونی از سخنان عمیق در حوزه‌های معماری، فلسفه، زندگی و ساختار سیستم‌ها 
 ---
-
-<div style="text-align: center; margin-bottom: 40px;">
-  <p style="font-size: 1.2rem; opacity: 0.8;">«سخن بزرگان، نقشه‌های راهی برای ساختن درون و برون انسان.»</p>
-</div>
+پ
 
 <!-- ================= دسته‌بندی اول: معماران و طراحان ================= -->
-<h2 style="border-bottom: 2px dashed var(--lightgray, #e8ddd0); padding-bottom: 8px; margin-top: 40px; margin-bottom: 24px;">🏛️ معماران و طراحان بزرگ</h2>
+##  معماران و طراحان بزرگ 🏛️
 
 <div class="quote-card quote-cream">
   <div class="quote-content">
@@ -20,7 +17,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     </blockquote>
   </div>
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Houshang_Seyhoun.jpg" alt="هوشنگ سیحون">
+    <img src="https://www.iranketab.ir/Images/ProfileImages/796aca55f95143eb8ca3db5030e5cbc4.jpg" alt="هوشنگ سیحون">
   </div>
 </div>
 
@@ -33,13 +30,14 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
     </blockquote>
   </div>
   <div class="quote-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Frank_Lloyd_Wright_by_Wm._Doctor_1926.jpg/250px-Frank_Lloyd_Wright_by_Wm._Doctor_1926.jpg" alt="فرانک لوید رایت">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Frank_Lloyd_Wright_portrait.jpg/250px-Frank_Lloyd_Wright_portrait.jpg" alt="فرانک لوید رایت">
   </div>
 </div>
 
 
 <!-- ================= دسته‌بندی دوم: تفکر، سیستم‌ها و زندگی ================= -->
-<h2 style="border-bottom: 2px dashed var(--lightgray, #e8ddd0); padding-bottom: 8px; margin-top: 50px; margin-bottom: 24px;">⚙️ تفکر، سیستم‌ها و استراتژی زندگی</h2>
+
+##  تفکر، سیستم‌ها و استراتژی زندگی ⚙️
 
 <div class="quote-card quote-yellow">
   <div class="quote-content">
@@ -73,7 +71,7 @@ description: کلکسیونی از سخنان عمیق در حوزه‌های م
 
 
 <!-- ================= دسته‌بندی سوم: ادبیات، هنر و فلسفه ================= -->
-<h2 style="border-bottom: 2px dashed var(--lightgray, #e8ddd0); padding-bottom: 8px; margin-top: 50px; margin-bottom: 24px;">✨ ادبیات، هنر و فلسفه</h2>
+##  ادبیات، هنر و فلسفه ✨
 
 <div class="quote-card quote-cream">
   <div class="quote-content">
