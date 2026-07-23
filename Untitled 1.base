@@ -1,0 +1,11 @@
+views:
+  - type: cards
+    name: کتاب
+    filters:
+      and:
+        - file.inFolder("content/یادداشت‌ها/کتاب")
+        - file.name != "کتاب"
+    sort:
+      - property: order
+        direction: ASC
+    image: note.image
