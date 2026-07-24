@@ -255,17 +255,25 @@ body[data-slug="index"] .content-meta time {
   }
 }
 
-/* بازنشانی و آماده‌سازی انیمیشن نرم برای کارت‌های بیس */
+/* اصلاح مشکل بریده شدن کارت‌ها هنگام بزرگ شدن */
+.bases-2col div.bases-cards, 
+.bases-cards {
+    overflow: visible !important;
+    padding: 10px !important;
+}
+
+/* افکت هاور دقیق روی کارت‌های بیس بدون بریدگی لبه‌ها */
 .bases-card {
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
                 box-shadow 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
                 border-color 0.3s ease !important;
-    will-change: transform, box-shadow;
+    position: relative;
+    z-index: 1;
 }
 
-/* اعمال افکت فقط و فقط روی کارتی که موس رویش قرار دارد */
 .bases-card:hover {
     transform: translateY(-6px) scale(1.02) !important;
-    box-shadow: 0 12px 30px rgba(42, 111, 151, 0.15) !important;
+    box-shadow: 0 15px 35px rgba(42, 111, 151, 0.18) !important;
     border-color: var(--interactive-accent, #2a6f97) !important;
+    z-index: 10;
 }
