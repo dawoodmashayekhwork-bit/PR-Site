@@ -255,10 +255,17 @@ body[data-slug="index"] .content-meta time {
   }
 }
 
-/* افکت هاور برای کارت‌های بخش base */
-.bases-card, 
-.card-view-item, 
-div[class*="card"] {
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+/* بازنشانی و آماده‌سازی انیمیشن نرم برای کارت‌های بیس */
+.bases-card {
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
+                box-shadow 0.3s cubic-bezier(0.25, 1, 0.5, 1), 
+                border-color 0.3s ease !important;
+    will-change: transform, box-shadow;
 }
 
+/* اعمال افکت فقط و فقط روی کارتی که موس رویش قرار دارد */
+.bases-card:hover {
+    transform: translateY(-6px) scale(1.02) !important;
+    box-shadow: 0 12px 30px rgba(42, 111, 151, 0.15) !important;
+    border-color: var(--interactive-accent, #2a6f97) !important;
+}
