@@ -85,6 +85,9 @@ export const DefaultFrame: PageFrame = {
               <a href="http://dawoodmashayekh.ir/%DB%8C%D8%A7%D8%AF%D8%AF%D8%A7%D8%B4%D8%AA%E2%80%8C%D9%87%D8%A7/" style={{ color: "var(--secondary)", textDecoration: "none" }}>
                 یادداشت‌ها
               </a>
+              <a href="http://dawoodmashayekh.ir/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%85%D9%86/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D9%85%D9%86" style={{ color: "var(--secondary)", textDecoration: "none" }}>
+                ارتباط با من
+              </a>
             </div>
 
             {/* سمت چپ: متن برندینگ و کپی‌رایت */}
