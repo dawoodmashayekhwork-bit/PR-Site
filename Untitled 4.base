@@ -1,0 +1,14 @@
+views:
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.inFolder("content/درباره من")
+        - order > 199
+    order:
+      - file.name
+      - order
+    sort:
+      - property: order
+        direction: ASC
+    image: note.image

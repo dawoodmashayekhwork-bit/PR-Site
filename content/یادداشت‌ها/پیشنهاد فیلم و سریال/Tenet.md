@@ -1,5 +1,5 @@
 ---
 title: Tenet
 img: "[[Tenet.jpg]]"
-order:
+order: "598"
 ---

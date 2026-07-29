@@ -1,0 +1,15 @@
+views:
+  - type: cards
+    name: View
+    filters:
+      and:
+        - order > 299
+        - order < 400
+    order:
+      - file.name
+      - order
+    sort:
+      - property: order
+        direction: ASC
+    image: note.image
+    imageAspectRatio: 1.1

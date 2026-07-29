@@ -1,0 +1,14 @@
+views:
+  - type: cards
+    name: View
+    filters:
+      and:
+        - order > 0
+        - order <100
+    order:
+      - file.name
+      - order
+    sort:
+      - property: order
+        direction: ASC
+    image: note.image

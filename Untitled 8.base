@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: View
+    filters:
+      and:
+        - order > 599
+        - order < 700
+    sort:
+      - property: order
+        direction: ASC
