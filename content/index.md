@@ -34,17 +34,7 @@ views:
 ```
 
 
-
-
-<div class="hidden-graph-links">
-[[یادداشت‌ها]]
-[[درباره من]]
-[[پروژه ها]]
-
-
-</div>
-
-
+<span class="hidden-graph-links">[[پروژه ها]] [[درباره من]] [[یادداشت‌ها]]</span>
 
 
 
