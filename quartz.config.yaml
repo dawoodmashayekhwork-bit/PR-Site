@@ -179,7 +179,7 @@ plugins:
   - source: github:quartz-community/graph
     enabled: true
     options:
-      colorBy: "path"
+      colorBy: "name"
     layout:
       position: right
       priority: 10
