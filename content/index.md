@@ -1,7 +1,10 @@
 ---
 title: Dawood Mashayekh
 draft: false
-
+tags:
+  - "#یادداشت"
+  - درباره
+  - پروژه
 ---
 
 #  سلام خوش آمدید! 
@@ -36,13 +39,7 @@ views:
 
 
 
-<div class="hidden-graph-links">
-[[یادداشت‌ها]]
-[[درباره من]]
-[[پروژه ها]]
 
-
-</div>
 
 
 
