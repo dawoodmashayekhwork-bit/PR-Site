@@ -71,7 +71,7 @@ plugins:
       mermaid: true
       parseTags: true
       parseBlockReferences: true
-      enableInHtmlEmbed: true
+      enableInHtmlEmbed: false
       enableYouTubeEmbed: true
       enableTweetEmbed: true
       enableVideoEmbed: true
