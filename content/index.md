@@ -32,14 +32,14 @@ views:
     cardSize: 200
 
 ```
-
-
-<span class="hidden-graph-links">[[پروژه ها]] [[درباره من]] [[یادداشت‌ها]]</span>
-
-
+[[پروژه ها]] [[درباره من]] [[یادداشت‌ها]]
 
 
 <style>
+
+  article p:has(> a[data-slug="پروژه-ها"]):has(> a[data-slug="درباره-من"]):has(> a[data-slug="یادداشت‌ها"]) {
+  display: none;
+}
 /* به‌طور پیش‌فرض در کامپیوتر این باکس مخفی است */
 .desktop-notice {
     display: none;
