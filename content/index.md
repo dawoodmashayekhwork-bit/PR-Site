@@ -36,11 +36,13 @@ views:
 
 
 
+<div class="hidden-graph-links">
+[[یادداشت‌ها]]
+[[درباره من]]
+[[پروژه ها]]
 
 
-
-
-
+</div>
 
 
 
