@@ -32,15 +32,16 @@ views:
     cardSize: 200
 
 ```
-
-
+<span class="glm-end">
 [[پروژه ها/پروژه ها]] [[درباره من/درباره من]] [[یادداشت‌ها/یادداشت‌ها]]
+</span>
 
 <style>
 
-article p:has(> a[data-slug="پروژه-ها"]):has(> a[data-slug="درباره-من"]):has(> a[data-slug="یادداشت‌ها"]) {
+p:has(> span.glm-end) {
   display: none;
 }
+
 /* به‌طور پیش‌فرض در کامپیوتر این باکس مخفی است */
 .desktop-notice {
     display: none;
