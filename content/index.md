@@ -37,7 +37,7 @@ views:
 
 <style>
 
-  article p:has(> a[data-slug="پروژه-ها"]):has(> a[data-slug="درباره-من"]):has(> a[data-slug="یادداشت‌ها"]) {
+article p:has(> a[data-slug="پروژه-ها"]):has(> a[data-slug="درباره-من"]):has(> a[data-slug="یادداشت‌ها"]) {
   display: none;
 }
 /* به‌طور پیش‌فرض در کامپیوتر این باکس مخفی است */
