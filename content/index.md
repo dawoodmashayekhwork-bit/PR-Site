@@ -33,7 +33,7 @@ views:
 
 ```
 
-[[پروژه ها/پروژه ها]] [[درباره من/درباره من]] [[NOTE]]<span class="glm-end"></span>
+[[Projects]] [[About Me]] [[NOTE]]<span class="glm-end"></span>
 
 
 
