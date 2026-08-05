@@ -21,8 +21,8 @@ views:
     filters:
       and:
         - or:
-            - file.name == "پروژه ها"
-            - file.name == "درباره من"
+            - file.name == "Projects"
+            - file.name == "About Me"
             - file.name == "NOTE"
     sort:
       - property: order
