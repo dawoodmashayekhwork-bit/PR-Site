@@ -23,7 +23,7 @@ views:
         - or:
             - file.name == "پروژه ها"
             - file.name == "درباره من"
-            - file.name == "یادداشت‌ها"
+            - file.name == "NOTE"
     sort:
       - property: order
         direction: ASC
@@ -33,7 +33,7 @@ views:
 
 ```
 
-[[پروژه ها/پروژه ها]] [[درباره من/درباره من]] [[یادداشت‌ها/یادداشت‌ها]]<span class="glm-end"></span>
+[[پروژه ها/پروژه ها]] [[درباره من/درباره من]] [[NOTE]]<span class="glm-end"></span>
 
 
 
