@@ -15,12 +15,12 @@ views:
     filters:
       and:
         - or:
-            - file.name == "سایت متمم"
-            - file.name == "کتاب صوتی معماری و راز جاودانگی"
-            - file.name == "کانال یوتیوب شخصی"
-            - file.name == "تاریخ معماری"
-            - file.name == "فرادرس"
-            - file.name == "من از نگاه دیگران"
+            - file.name == "Faradars"
+            - file.name == "History of Architecture"
+            - file.name == "Me, through the eyes of others"
+            - file.name == "Motamem Website"
+            - file.name == "Personal YouTube channel"
+            - file.name == "The Timeless Way of Building (Audiobook)"
             
         
     sort:

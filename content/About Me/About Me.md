@@ -24,12 +24,12 @@ views:
     filters:
       and:
         - or:
-            - file.name == "تجربه ها"
-            - file.name == "مهارت ها"
-            - file.name == "ارتباط با من"
-            - file.name == "پژوهش‌ها"
-            - file.name == "گواهی‌نامه‌ها"
-            - file.name == "داوطلبانه"
+            - file.name == "Certificates"
+            - file.name == "Contact Me"
+            - file.name == "Experiences"
+            - file.name == "Research"
+            - file.name == "Skills"
+            - file.name == "Voluntary"
         
     sort:
       - property: order
