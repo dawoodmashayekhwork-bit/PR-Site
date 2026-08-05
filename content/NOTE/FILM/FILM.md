@@ -14,8 +14,8 @@ views:
     name: view
     filters:
       and:
-        - file.inFolder("یادداشت‌ها/پیشنهاد فیلم و سریال")
-        - file.name != "پیشنهاد فیلم و سریال"
+        - file.inFolder("NOTE/FILM")
+        - file.name != "FILM"
     sort:
       - property: order
         direction: ASC
