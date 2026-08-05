@@ -17,8 +17,8 @@ views:
     name: view
     filters:
       and:
-        - file.inFolder("یادداشت‌ها/پیشنهاد کتاب")
-        - file.name != "پیشنهاد کتاب"
+        - file.inFolder("NOTE/Book")
+        - file.name != "Book"
     sort:
       - property: order
         direction: ASC
