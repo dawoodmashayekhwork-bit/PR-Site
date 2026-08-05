@@ -34,7 +34,7 @@ views:
 ```
 
 
-[[Projects]] [[About Me]] [[NOTE]]<span class="glm-end"></span>
+[[Projects]] [[About Me]] [[NOTE]] <span class="glm-end"></span>
 
 
 
