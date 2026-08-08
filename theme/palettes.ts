@@ -1,32 +1,32 @@
 export const colorPalettes = {
   // ... سایر پالت‌ها سر جای خودشان ...
 
-  // پالت جدید: دارکِ عمیق، بتنی و معماریِ مدرن
-  brutalistDark: {
+  // پالت جدید: Obsidian & Quartz (مخصوص وبلاگ دارکِ لاکچری و خاص)
+  obsidianQuartz: {
     lightMode: {
-      light: "#EAE6DF",
-      lightgray: "#D1CBC1",
-      gray: "#A39B8F",
-      darkgray: "#4A453F",
-      dark: "#141312",
-      secondary: "#D46A34",
-      tertiary: "#2D5A7B",
-      highlight: "rgba(212, 106, 52, 0.12)",
-      textHighlight: "rgba(212, 106, 52, 0.25)",
+      light: "#F5F6F8",
+      lightgray: "#E2E5EC",
+      gray: "#BAC1CC",
+      darkgray: "#4A5260",
+      dark: "#0F1117",
+      secondary: "#6366F1",
+      tertiary: "#38BDF8",
+      highlight: "rgba(99, 102, 241, 0.1)",
+      textHighlight: "rgba(56, 189, 248, 0.2)",
     },
     darkMode: {
-      light: "#0A0A0B",       // سیاهی عمیق و خالص (فضای استودیوی تاریک)
-      lightgray: "#161719",   // خاکستریِ بسیار تیره برای کارت‌ها و بخش‌های عمق‌دار
-      gray: "#26282C",        // خطوط مرزی مینیمال و جداکننده‌های ظریف
-      darkgray: "#8E949E",    // خاکستریِ متالیک و سرد برای خوانایی عالی متن‌های طولانی
-      dark: "#F4F4F5",        // سفید استخوانی درخشان برای عناوینِ باکلاس
-      secondary: "#FF6B35",   // نارنجی مسـیِ گرم (شبیه نورِ چراغ‌های موضعی در ماکت‌سازی یا متریال فلز زنگ‌نزده)
-      tertiary: "#00E5FF",    // آبی سایبر-مهندسی یا خطوط نئونیِ نرم برای تگ‌ها و هایلایت‌ها
-      highlight: "rgba(255, 107, 53, 0.15)",
-      textHighlight: "rgba(0, 229, 255, 0.25)",
+      light: "#0B0C10",       // ابسیدین خالص و عمیق (سیاهِ معدنی با ته¬رنگ دودی)
+      lightgray: "#14161C",   // ابسیدینِ لایه‌ی دوم برای کارت‌ها و پنل‌ها
+      gray: "#222632",        // مرزها و خطوط جداکننده‌ی تراش‌خورده
+      darkgray: "#94A3B8",    // نقره‌ای دودی برای متن‌های ثانویه (خوانایی بی‌نظیر)
+      dark: "#F8FAFC",        // کوارتز سفید و درخشان برای عناوین و متن‌های اصلی
+      secondary: "#38BDF8",   // کوارتزِ آبیِ یخی (آبیِ شفافِ کریستالی برای اکنت‌های اصلی)
+      tertiary: "#A78BFA",    // آمتیست/کوارتز دودی بنفش ملایم (برای هایلایت‌های جادویی و تگ‌ها)
+      highlight: "rgba(56, 189, 248, 0.12)",   // نورِ بازتابیِ ملایم کوارتز روی بدنه ابسیدین
+      textHighlight: "rgba(167, 139, 250, 0.25)", // هایلایت متنِ کریستالی
     },
   },
 }
 
 // Select your desired palette here
-export const currentPaletteName: keyof typeof colorPalettes = "brutalistDark"
+export const currentPaletteName: keyof typeof colorPalettes = "obsidianQuartz"
