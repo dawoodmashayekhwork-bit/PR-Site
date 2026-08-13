@@ -391,6 +391,7 @@ order: "203"
           { label: "Revit", value: 60 },
           { label: "3ds Max", value: 40 },
           { label: "Corona", value: 60 },
+          { label: "ArcGIS", value: 85 },
           { label: "Enscape", value: 85 }
         ]);
 
