@@ -388,7 +388,7 @@ order: "203"
           { label: "AutoCAD", value: 85 },
           { label: "SketchUp", value: 88 },
           { label: "Lumion", value: 89 },
-          { label: "Revit", value: 60 },
+          { label: "Revit", value: 80 },
           { label: "3ds Max", value: 40 },
           { label: "Corona", value: 60 },
           { label: "ArcGIS", value: 85 },
