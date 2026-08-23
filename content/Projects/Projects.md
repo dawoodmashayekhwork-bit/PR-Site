@@ -16,6 +16,7 @@ views:
       and:
         - or:
             - file.name == "Faradars"
+            - file.name == "WORK-SITE"
             - file.name == "History of Architecture"
             - file.name == "Me, through the eyes of others"
             - file.name == "Motamem Website"
