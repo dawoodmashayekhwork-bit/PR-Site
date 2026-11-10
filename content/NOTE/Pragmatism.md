@@ -1,7 +1,9 @@
 ---
 title: درستایش عملگرایی
-draft: false
+draft: true
 order: "391"
 image: "[[Pragmatism.png]]"
 tags:
+  - Pragmatism
+  - عملگرایی
 ---
