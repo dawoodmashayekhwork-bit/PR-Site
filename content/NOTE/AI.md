@@ -1,7 +1,7 @@
 ---
 title: استفاده از هوش مصنوعی
 draft: false
-image: "[[ai.png]]"
+image: "[[content/attachment/ai.png]]"
 order: "392"
 tags:
   - یادداشت
@@ -61,5 +61,4 @@ tags:
  هم تلگرام : [DAWOODBM](https://t.me/Dawoodbm)
 
 
-*-*
 
