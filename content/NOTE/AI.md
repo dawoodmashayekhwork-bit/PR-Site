@@ -1,7 +1,7 @@
 ---
 title: استفاده از هوش مصنوعی
 draft: false
-image: "[[content/attachment/ai.png]]"
+image: "[[هوش.png]]"
 order: "392"
 tags:
   - یادداشت
